@@ -254,7 +254,10 @@
         "tips": "Tips & Gratifikasi",
         "optional": "Aktivitas Opsional"
       }
-    }
+    },
+    "instagramTitle": "Lihat Keseruannya di Instagram",
+    "instagramText": "Foto dan video terbaru dari destinasi ini dan trip-trip kami lainnya, langsung dari lapangan.",
+    "instagramButton": "Lihat di Instagram"
   },
   "transportation": {
     "badge": "Sewa Kendaraan",

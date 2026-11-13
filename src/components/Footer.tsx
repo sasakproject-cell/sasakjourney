@@ -9,8 +9,6 @@ import {
     Instagram,
     LocationOn,
     Phone,
-    Twitter,
-    YouTube,
 } from "@mui/icons-material";
 import {
     Box,
@@ -65,6 +63,11 @@ export default function Footer() {
                         </Typography>
                         <Box sx={{ display: "flex", gap: 1 }}>
                             <IconButton
+                                component="a"
+                                href="https://www.instagram.com/sasakjourney/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                aria-label="Instagram Sasak Journey"
                                 size="small"
                                 sx={{
                                     color: "white",
@@ -75,6 +78,11 @@ export default function Footer() {
                                 <Instagram />
                             </IconButton>
                             <IconButton
+                                component="a"
+                                href="https://www.facebook.com/profile.php?id=61583892500100"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                aria-label="Facebook Sasak Journey"
                                 size="small"
                                 sx={{
                                     color: "white",
@@ -83,26 +91,6 @@ export default function Footer() {
                                 }}
                             >
                                 <Facebook />
-                            </IconButton>
-                            <IconButton
-                                size="small"
-                                sx={{
-                                    color: "white",
-                                    bgcolor: "rgba(255,255,255,0.1)",
-                                    "&:hover": { bgcolor: "primary.main" },
-                                }}
-                            >
-                                <YouTube />
-                            </IconButton>
-                            <IconButton
-                                size="small"
-                                sx={{
-                                    color: "white",
-                                    bgcolor: "rgba(255,255,255,0.1)",
-                                    "&:hover": { bgcolor: "primary.main" },
-                                }}
-                            >
-                                <Twitter />
                             </IconButton>
                         </Box>
                     </Grid>

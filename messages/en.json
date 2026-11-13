@@ -254,7 +254,10 @@
         "tips": "Tips & Gratuities",
         "optional": "Optional Activities"
       }
-    }
+    },
+    "instagramTitle": "See It on Instagram",
+    "instagramText": "The latest photos and videos from this destination and our other trips, straight from the field.",
+    "instagramButton": "View on Instagram"
   },
   "transportation": {
     "badge": "Vehicle Rental",

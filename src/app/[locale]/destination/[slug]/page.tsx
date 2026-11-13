@@ -7,6 +7,7 @@ import {
   CalendarToday as CalendarIcon,
   Cancel as CancelIcon,
   CheckCircle as CheckIcon,
+  Instagram as InstagramIcon,
   Place as PlaceIcon,
   WhatsApp as WhatsAppIcon,
 } from "@mui/icons-material";
@@ -930,6 +931,68 @@ export default function DestinationDetailPage() {
                   </Grid>
                 ))}
               </Grid>
+            </Paper>
+
+            {/* Instagram */}
+            <Paper
+              elevation={2}
+              sx={{
+                p: 4,
+                mb: 4,
+                borderRadius: 2,
+                display: "flex",
+                flexDirection: { xs: "column", sm: "row" },
+                alignItems: { xs: "flex-start", sm: "center" },
+                gap: 3,
+              }}
+            >
+              <Box
+                sx={{
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  width: 56,
+                  height: 56,
+                  borderRadius: 3,
+                  flexShrink: 0,
+                  background:
+                    "linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%)",
+                  color: "white",
+                }}
+              >
+                <InstagramIcon fontSize="large" />
+              </Box>
+              <Box sx={{ flex: 1 }}>
+                <Typography variant="h6" sx={{ fontWeight: 700, mb: 0.5 }}>
+                  {t("instagramTitle")}
+                </Typography>
+                <Typography variant="body2" color="text.secondary">
+                  {t("instagramText")}
+                </Typography>
+              </Box>
+              <Button
+                variant="contained"
+                href="https://www.instagram.com/sasakjourney/"
+                target="_blank"
+                rel="noopener noreferrer"
+                startIcon={<InstagramIcon />}
+                sx={{
+                  textTransform: "none",
+                  fontWeight: 700,
+                  borderRadius: 2,
+                  whiteSpace: "nowrap",
+                  width: { xs: "100%", sm: "auto" },
+                  background:
+                    "linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%)",
+                  color: "white",
+                  "&:hover": {
+                    background:
+                      "linear-gradient(45deg, #bc1888 0%, #cc2366 25%, #dc2743 50%, #e6683c 75%, #f09433 100%)",
+                  },
+                }}
+              >
+                {t("instagramButton")}
+              </Button>
             </Paper>
           </Grid>
 
