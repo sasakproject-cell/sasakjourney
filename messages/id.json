@@ -303,6 +303,28 @@
       "hours": "Setiap Hari: 08.00 - 22.00 WITA"
     }
   },
+  "reviews": {
+    "badge": "Ulasan Pelanggan",
+    "title": "Apa Kata Mereka",
+    "subtitle": "Cerita dari pelanggan yang sudah jalan-jalan bareng Sasak Journey di Lombok.",
+    "formTitle": "Tulis Ulasan Anda",
+    "formSubtitle": "Sudah trip bareng kami? Ceritakan pengalaman Anda.",
+    "nameLabel": "Nama Anda",
+    "namePlaceholder": "Contoh: Andini",
+    "ratingLabel": "Rating",
+    "tripLabel": "Paket / Destinasi (opsional)",
+    "tripPlaceholder": "Contoh: Gili Trawangan",
+    "messageLabel": "Ulasan Anda",
+    "messagePlaceholder": "Ceritakan pengalaman trip Anda...",
+    "submit": "Kirim Ulasan via WhatsApp",
+    "note": "Ulasan akan terkirim via WhatsApp dan ditampilkan di website setelah ditinjau.",
+    "waGreeting": "Halo Sasak Journey, saya ingin memberi ulasan.",
+    "waName": "Nama",
+    "waRating": "Rating",
+    "waTrip": "Paket/Destinasi",
+    "waReview": "Ulasan",
+    "waFooter": "Terima kasih."
+  },
   "footer": {
     "description": "Sasak Journey adalah teman perjalanan terbaik anda di Lombok. Kami menyediakan paket wisata dan transportasi terbaik untuk pengalaman liburan tak terlupakan.",
     "quickLinks": "Tautan Cepat",

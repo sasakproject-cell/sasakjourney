@@ -1,6 +1,8 @@
 "use client";
 
+import { LOGO_DATA_URI, LOGO_HEIGHT, LOGO_WIDTH } from "@/data/logo";
 import { Link } from "@/i18n/navigation";
+import CustomerReviews from "./CustomerReviews";
 import {
     Email,
     Facebook,
@@ -19,6 +21,7 @@ import {
     Typography,
 } from "@mui/material";
 import { useTranslations } from "next-intl";
+import Image from "next/image";
 
 export default function Footer() {
     const t = useTranslations("footer");
@@ -36,16 +39,23 @@ export default function Footer() {
             }}
         >
             <Container maxWidth="lg">
+                <CustomerReviews />
                 <Grid container spacing={8}>
                     {/* Brand & Description */}
                     <Grid size={{ xs: 12, md: 4 }}>
                         <Box sx={{ mb: 3 }}>
-                            <Typography
-                                variant="h5"
-                                sx={{ fontWeight: 700, color: "white" }}
-                            >
-                                Sasak Journey
-                            </Typography>
+                            <Image
+                                src={LOGO_DATA_URI}
+                                alt="Sasak Journey"
+                                width={LOGO_WIDTH}
+                                height={LOGO_HEIGHT}
+                                unoptimized
+                                style={{
+                                    height: 44,
+                                    width: "auto",
+                                    filter: "brightness(0) invert(1)",
+                                }}
+                            />
                         </Box>
                         <Typography
                             variant="body2"

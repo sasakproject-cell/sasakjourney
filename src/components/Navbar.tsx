@@ -1,5 +1,6 @@
 "use client";
 
+import { LOGO_DATA_URI, LOGO_HEIGHT, LOGO_WIDTH } from "@/data/logo";
 import { Link, usePathname, useRouter } from "@/i18n/navigation";
 import CloseIcon from "@mui/icons-material/Close";
 import LanguageIcon from "@mui/icons-material/Language";
@@ -22,6 +23,7 @@ import {
   Typography,
 } from "@mui/material";
 import { useLocale, useTranslations } from "next-intl";
+import Image from "next/image";
 import { useEffect, useState } from "react";
 
 type NavItem = {
@@ -122,9 +124,14 @@ export default function Navbar() {
           p: 2,
         }}
       >
-        <Typography variant="h6" fontWeight={700} color="primary">
-          Sasak Journey
-        </Typography>
+        <Image
+          src={LOGO_DATA_URI}
+          alt="Sasak Journey"
+          width={LOGO_WIDTH}
+          height={LOGO_HEIGHT}
+          unoptimized
+          style={{ height: 34, width: "auto" }}
+        />
         <IconButton onClick={handleDrawerToggle}>
           <CloseIcon />
         </IconButton>
@@ -288,24 +295,33 @@ export default function Navbar() {
               alignItems: "center",
             }}
           >
-            <Typography
+            <Box
               component={Link}
               href="/"
               sx={{
-                fontWeight: 700,
-                fontSize: "1.5rem",
-                color: scrolled
-                  ? "primary.main"
-                  : isHomePage
-                    ? "white"
-                    : "primary.main",
+                display: "flex",
+                alignItems: "center",
                 textDecoration: "none",
-                transition: "color 0.3s ease",
                 cursor: "pointer",
               }}
             >
-              Sasak Journey
-            </Typography>
+              <Image
+                src={LOGO_DATA_URI}
+                alt="Sasak Journey"
+                width={LOGO_WIDTH}
+                height={LOGO_HEIGHT}
+                unoptimized
+                style={{
+                  height: 40,
+                  width: "auto",
+                  filter:
+                    !scrolled && isHomePage
+                      ? "brightness(0) invert(1)"
+                      : "none",
+                  transition: "filter 0.3s ease",
+                }}
+              />
+            </Box>
 
             <Box
               sx={{
