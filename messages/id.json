@@ -1,0 +1,313 @@
+{
+  "navbar": {
+    "logo": "Sasak Journey",
+    "home": "Beranda",
+    "destinations": "Destinasi",
+    "aboutUs": "Tentang Kami",
+    "transportation": "Transportasi",
+    "contact": "Kontak",
+    "consultation": "Konsultasi",
+    "bookNow": "Pesan Sekarang",
+    "consultFree": "Konsultasi Gratis",
+    "destinationsSubmenu": {
+      "giliIslands": "Kepulauan Gili",
+      "mountRinjani": "Gunung Rinjani",
+      "southernBeaches": "Pantai Selatan"
+    }
+  },
+  "hero": {
+    "headline": "Jelajahi Surga Tersembunyi: Lombok Menanti Anda",
+    "subheadline": "Temukan keindahan budaya Sasak, pantai yang tak berujung, dan puncak Gunung Rinjani bersama Sasak Journey.",
+    "consultationCta": "Konsultasi Gratis",
+    "destinationsCta": "Lihat Destinasi",
+    "consultHint": "Bingung pilih paket? Ceritakan rencana trip Anda, kami bantu rekomendasikan.",
+    "searchForm": {
+      "travelCategory": "Kategori Perjalanan",
+      "selectDestination": "Pilih Destinasi",
+      "duration": "Durasi",
+      "findYourJourney": "Cari",
+      "categories": {
+        "beach": "Liburan Pantai",
+        "city": "City Tour",
+        "culture": "Budaya & Sejarah",
+        "tour": "Tour Perjalanan",
+        "business": "Perjalanan Dinas",
+        "honeymoon": "Honeymoon"
+      },
+      "destinations": {
+        "mandalika": "Mandalika",
+        "giliTrawangan": "Gili Trawangan",
+        "giliNanggu": "Gili Nanggu",
+        "giliGede": "Gili Gede",
+        "pinkBeach": "Pantai Pink",
+        "sasakTour": "Sasak Tour",
+        "mataramTour": "Mataram Tour",
+        "benangKelambu": "Air Terjun Benang Kelambu",
+        "senggigi": "Senggigi",
+        "mandalikaCircuit": "Sirkuit Mandalika",
+        "sembalunRinjani": "Sembalun Rinjani"
+      },
+      "durations": {
+        "2d1n": "2 Hari / 1 Malam",
+        "3d2n": "3 Hari / 2 Malam",
+        "4d3n": "4 Hari / 3 Malam",
+        "5d4n": "5 Hari / 4 Malam",
+        "6d5n": "6 Hari / 5 Malam",
+        "honeymoon": "Honeymoon"
+      }
+    }
+  },
+  "whyChooseUs": {
+    "title": "Mengapa Memilih Kami",
+    "subtitle": "Rasakan Lombok seperti belum pernah sebelumnya dengan layanan perjalanan terpercaya kami",
+    "features": {
+      "localExpertise": {
+        "title": "Keahlian Lokal",
+        "description": "Tim kami terdiri dari pemandu lokal yang mengetahui setiap tempat tersembunyi dan spot rahasia di Pulau Lombok."
+      },
+      "bestPrice": {
+        "title": "Garansi Harga Terbaik",
+        "description": "Kami menawarkan harga kompetitif tanpa biaya tersembunyi. Menemukan penawaran yang lebih baik? Kami akan menyamainya!"
+      },
+      "support24": {
+        "title": "Dukungan 24/7",
+        "description": "Tim dukungan pelanggan kami tersedia sepanjang waktu untuk membantu Anda dengan pertanyaan atau kekhawatiran apa pun."
+      }
+    }
+  },
+  "destinations": {
+    "title": "Destinasi Populer",
+    "subtitle": "Temukan destinasi paling dicari di Lombok",
+    "viewDetails": "Lihat Detail",
+    "viewAll": "Lihat Semua Destinasi",
+    "from": "Mulai dari",
+    "reviews": "ulasan",
+    "tags": {
+      "beach": "Pantai",
+      "resort": "Resor",
+      "motogp": "MotoGP",
+      "island": "Pulau",
+      "snorkeling": "Snorkeling",
+      "nightlife": "Hiburan",
+      "peaceful": "Tenang",
+      "iconic": "Ikonik",
+      "photography": "Fotografi",
+      "sunset": "Sunset",
+      "family": "Keluarga",
+      "mountain": "Gunung",
+      "trekking": "Pendakian",
+      "nature": "Alam",
+      "culture": "Budaya",
+      "village": "Desa",
+      "tradition": "Tradisi",
+      "city": "Kota",
+      "history": "Sejarah",
+      "waterfall": "Air Terjun",
+      "sport": "Olahraga",
+      "racing": "Balap"
+    },
+    "items": {
+      "mandalika": {
+        "title": "Mandalika",
+        "description": "Kawasan wisata terpadu dengan pantai indah, resor mewah, dan Sirkuit MotoGP kelas dunia."
+      },
+      "giliTrawangan": {
+        "title": "Gili Trawangan",
+        "description": "Pulau tropis favorit dengan pasir putih, snorkeling, dan kehidupan malam yang hidup."
+      },
+      "giliNanggu": {
+        "title": "Gili Nanggu",
+        "description": "Pulau kecil yang tenang dengan air laut jernih, cocok untuk relaksasi dan snorkeling."
+      },
+      "giliGede": {
+        "title": "Gili Gede",
+        "description": "Pulau terbesar di selatan Lombok dengan keindahan alam yang masih asri dan suasana tenang."
+      },
+      "pinkBeach": {
+        "title": "Pantai Pink",
+        "description": "Pantai unik dengan pasir berwarna merah muda dan panorama laut yang eksotis."
+      },
+      "sasakTour": {
+        "title": "Sasak Tour",
+        "description": "Jelajahi desa-desa tradisional Sasak dan pelajari budaya serta kerajinan tangan khas Lombok."
+      },
+      "mataramTour": {
+        "title": "Mataram Tour",
+        "description": "Eksplorasi ibu kota Lombok dengan sejarah kerajaan, pura-pura kuno, dan kuliner lokal."
+      },
+      "benangKelambu": {
+        "title": "Air Terjun Benang Kelambu",
+        "description": "Air terjun menakjubkan dengan tirai air alami yang indah di tengah hutan tropis."
+      },
+      "senggigi": {
+        "title": "Senggigi",
+        "description": "Destinasi wisata klasik Lombok dengan sunset indah dan fasilitas lengkap."
+      },
+      "mandalikaCircuit": {
+        "title": "Sirkuit Mandalika",
+        "description": "Sirkuit balap internasional MotoGP dengan fasilitas modern dan pemandangan laut."
+      },
+      "sembalunRinjani": {
+        "title": "Sembalun Rinjani",
+        "description": "Desa pegunungan di kaki Gunung Rinjani, gerbang utama pendakian dan wisata alam."
+      }
+    }
+  },
+  "consultation": {
+    "badge": "Gratis, tanpa komitmen",
+    "title": "Konsultasi Trip Lombok",
+    "subtitle": "Ceritakan rencana liburan Anda. Tim lokal kami akan membantu memilih destinasi, durasi, dan transportasi yang paling cocok — gratis.",
+    "point1": "Dibalas langsung via WhatsApp oleh tim lokal",
+    "point2": "Rekomendasi paket sesuai budget dan tanggal Anda",
+    "point3": "Bisa tanya dulu, tanpa harus langsung pesan",
+    "hoursLabel": "Jam operasional",
+    "hours": "Setiap hari, 08.00–22.00 WITA",
+    "whatsappLabel": "WhatsApp",
+    "responseNote": "Biasanya dibalas dalam jam operasional.",
+    "form": {
+      "title": "Form Konsultasi",
+      "name": "Nama lengkap",
+      "phone": "Nomor WhatsApp Anda",
+      "phonePlaceholder": "Contoh: 0812xxxxxxx",
+      "destination": "Destinasi yang diminati",
+      "destinationPlaceholder": "Pilih destinasi",
+      "notSure": "Belum tahu, minta rekomendasi",
+      "date": "Tanggal berangkat",
+      "participants": "Jumlah peserta",
+      "participantsPlaceholder": "Contoh: 4",
+      "duration": "Durasi trip",
+      "durationPlaceholder": "Pilih durasi",
+      "message": "Ceritakan rencana trip Anda (opsional)",
+      "messagePlaceholder": "Contoh: mau honeymoon 3 hari, suka pantai dan snorkeling...",
+      "send": "Kirim via WhatsApp",
+      "note": "Form ini akan membuka WhatsApp dengan pesan yang sudah terisi. Tidak ada data yang disimpan di website."
+    },
+    "waGreeting": "Halo Sasak Journey, saya ingin konsultasi trip Lombok.",
+    "waFooter": "Mohon info dan rekomendasinya. Terima kasih.",
+    "waMessageLabel": "Pesan",
+    "waPeople": "orang",
+    "floatLabel": "Chat WhatsApp",
+    "floatGreeting": "Halo Sasak Journey, saya ingin bertanya tentang trip Lombok."
+  },
+  "searchResults": {
+    "title": "Hasil Pencarian",
+    "subtitle": "Ditemukan {count} paket yang sesuai dengan kriteria Anda",
+    "noResults": "Tidak ada paket yang ditemukan",
+    "noResultsDescription": "Coba sesuaikan filter pencarian Anda atau jelajahi destinasi populer kami",
+    "filters": {
+      "title": "Filter",
+      "category": "Kategori",
+      "destination": "Destinasi",
+      "duration": "Durasi",
+      "priceRange": "Rentang Harga",
+      "clearFilters": "Hapus Semua Filter"
+    },
+    "sortBy": {
+      "label": "Urutkan berdasarkan",
+      "priceLow": "Harga: Rendah ke Tinggi",
+      "priceHigh": "Harga: Tinggi ke Rendah",
+      "popular": "Paling Populer",
+      "newest": "Terbaru"
+    },
+    "packages": {
+      "perPerson": "per orang",
+      "duration": "Hari",
+      "nights": "Malam",
+      "viewDetails": "Lihat Detail",
+      "bookNow": "Pesan Sekarang"
+    }
+  },
+  "destinationDetail": {
+    "title": "Detail Destinasi",
+    "overview": "Ringkasan",
+    "highlights": "Poin Menarik",
+    "itinerary": "Rencana Perjalanan",
+    "included": "Yang Termasuk",
+    "excluded": "Yang Tidak Termasuk",
+    "pricing": "Harga",
+    "gallery": "Galeri",
+    "reviews": "Ulasan",
+    "relatedDestinations": "Destinasi Terkait",
+    "bookNow": "Pesan Sekarang",
+    "contactUs": "Hubungi Kami",
+    "perPerson": "per orang",
+    "days": "Hari",
+    "nights": "Malam",
+    "rating": "Rating",
+    "reviewsCount": "{count} Ulasan",
+    "startingFrom": "Mulai dari",
+    "readMore": "Baca Selengkapnya",
+    "readLess": "Baca Lebih Sedikit",
+    "day": "Hari",
+    "items": {
+      "included": {
+        "accommodation": "Akomodasi",
+        "meals": "Makanan",
+        "transportation": "Transportasi",
+        "guide": "Pemandu Profesional",
+        "entrance": "Tiket Masuk",
+        "insurance": "Asuransi Perjalanan"
+      },
+      "excluded": {
+        "flights": "Tiket Pesawat Internasional",
+        "personal": "Pengeluaran Pribadi",
+        "tips": "Tips & Gratifikasi",
+        "optional": "Aktivitas Opsional"
+      }
+    }
+  },
+  "transportation": {
+    "badge": "Sewa Kendaraan",
+    "title": "Layanan Transportasi",
+    "subtitle": "Jelajahi Lombok dengan nyaman menggunakan armada kendaraan kami yang terawat baik. Dilengkapi supir berpengalaman yang ramah dan mengenal seluruh destinasi wisata di Lombok.",
+    "durationInfo": "Semua paket sewa berlaku untuk 12 jam perjalanan",
+    "persons": "orang",
+    "hours": "jam",
+    "hour": "jam",
+    "includesLabel": "Termasuk",
+    "free": "Gratis",
+    "extraTime": "Overtime",
+    "extraArea": "Biaya tambahan",
+    "bookViaWhatsApp": "Pesan via WhatsApp",
+    "needHelp": "Butuh Bantuan?",
+    "needHelpDesc": "Tim kami siap membantu Anda memilih kendaraan yang tepat untuk perjalanan Anda di Lombok.",
+    "contactUs": "Hubungi Kami",
+    "includes": {
+      "car": "Mobil",
+      "fuel": "Bensin",
+      "driver": "Supir"
+    },
+    "freeItems": {
+      "mineralWater": "Air Mineral"
+    }
+  },
+  "contactPage": {
+    "title": "Hubungi Kami",
+    "subtitle": "Kami siap membantu merencanakan liburan impian Anda di Lombok. Hubungi kami melalui formulir di bawah ini atau melalui kontak langsung.",
+    "form": {
+      "name": "Nama Lengkap",
+      "email": "Alamat Email",
+      "phone": "Nomor WhatsApp",
+      "subject": "Subjek Pesan",
+      "message": "Pesan Anda",
+      "send": "Kirim Pesan",
+      "success": "Pesan berhasil dibuat! Mengalihkan ke WhatsApp...",
+      "title": "Kirim Pesan"
+    },
+    "info": {
+      "office": "Kantor Kami",
+      "address": "Jl. Pariwisata Pantai Kuta, Mandalika, Lombok Tengah, NTB 83573",
+      "phone": "Telepon & WhatsApp",
+      "email": "Email Kami",
+      "operationHours": "Jam Operasional",
+      "hours": "Setiap Hari: 08.00 - 22.00 WITA"
+    }
+  },
+  "footer": {
+    "description": "Sasak Journey adalah teman perjalanan terbaik anda di Lombok. Kami menyediakan paket wisata dan transportasi terbaik untuk pengalaman liburan tak terlupakan.",
+    "quickLinks": "Tautan Cepat",
+    "contact": "Hubungi Kami",
+    "followUs": "Ikuti Kami",
+    "copyright": "Sasak Journey. Hak Cipta Dilindungi Undang-Undang."
+  }
+}

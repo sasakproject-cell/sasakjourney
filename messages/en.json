@@ -1,0 +1,313 @@
+{
+  "navbar": {
+    "logo": "Sasak Journey",
+    "home": "Home",
+    "destinations": "Destinations",
+    "aboutUs": "About Us",
+    "transportation": "Transportation",
+    "contact": "Contact",
+    "consultation": "Consultation",
+    "bookNow": "Book Now",
+    "consultFree": "Free Consultation",
+    "destinationsSubmenu": {
+      "giliIslands": "Gili Islands",
+      "mountRinjani": "Mount Rinjani",
+      "southernBeaches": "Southern Beaches"
+    }
+  },
+  "hero": {
+    "headline": "Explore the Hidden Paradise: Lombok Awaits You",
+    "subheadline": "Discover the beauty of Sasak culture, endless beaches, and the peak of Mount Rinjani with Sasak Journey.",
+    "consultationCta": "Free Consultation",
+    "destinationsCta": "View Destinations",
+    "consultHint": "Not sure which package to pick? Tell us your trip plan and we'll recommend one.",
+    "searchForm": {
+      "travelCategory": "Travel Category",
+      "selectDestination": "Select Destination",
+      "duration": "Duration",
+      "findYourJourney": "Search",
+      "categories": {
+        "beach": "Beach Holidays",
+        "city": "City Tour",
+        "culture": "Culture & History",
+        "tour": "Tour Journey",
+        "business": "Business Trip",
+        "honeymoon": "Honeymoon"
+      },
+      "destinations": {
+        "mandalika": "Mandalika",
+        "giliTrawangan": "Gili Trawangan",
+        "giliNanggu": "Gili Nanggu",
+        "giliGede": "Gili Gede",
+        "pinkBeach": "Pink Beach",
+        "sasakTour": "Sasak Tour",
+        "mataramTour": "Mataram Tour",
+        "benangKelambu": "Benang Kelambu Waterfall",
+        "senggigi": "Senggigi",
+        "mandalikaCircuit": "Mandalika Circuit",
+        "sembalunRinjani": "Sembalun Rinjani"
+      },
+      "durations": {
+        "2d1n": "2 Days / 1 Night",
+        "3d2n": "3 Days / 2 Nights",
+        "4d3n": "4 Days / 3 Nights",
+        "5d4n": "5 Days / 4 Nights",
+        "6d5n": "6 Days / 5 Nights",
+        "honeymoon": "Honeymoon"
+      }
+    }
+  },
+  "whyChooseUs": {
+    "title": "Why Choose Us",
+    "subtitle": "Experience Lombok like never before with our trusted travel services",
+    "features": {
+      "localExpertise": {
+        "title": "Local Expertise",
+        "description": "Our team consists of local guides who know every hidden gem and secret spot on Lombok Island."
+      },
+      "bestPrice": {
+        "title": "Best Price Guarantee",
+        "description": "We offer competitive prices with no hidden fees. Find a better deal? We'll match it!"
+      },
+      "support24": {
+        "title": "24/7 Support",
+        "description": "Our customer support team is available around the clock to assist you with any questions or concerns."
+      }
+    }
+  },
+  "destinations": {
+    "title": "Popular Destinations",
+    "subtitle": "Discover the most sought-after destinations in Lombok",
+    "viewDetails": "View Details",
+    "viewAll": "View All Destinations",
+    "from": "Starting from",
+    "reviews": "reviews",
+    "tags": {
+      "beach": "Beach",
+      "resort": "Resort",
+      "motogp": "MotoGP",
+      "island": "Island",
+      "snorkeling": "Snorkeling",
+      "nightlife": "Nightlife",
+      "peaceful": "Peaceful",
+      "iconic": "Iconic",
+      "photography": "Photography",
+      "sunset": "Sunset",
+      "family": "Family",
+      "mountain": "Mountain",
+      "trekking": "Trekking",
+      "nature": "Nature",
+      "culture": "Culture",
+      "village": "Village",
+      "tradition": "Tradition",
+      "city": "City",
+      "history": "History",
+      "waterfall": "Waterfall",
+      "sport": "Sport",
+      "racing": "Racing"
+    },
+    "items": {
+      "mandalika": {
+        "title": "Mandalika",
+        "description": "Integrated tourism area with beautiful beaches, luxury resorts, and world-class MotoGP Circuit."
+      },
+      "giliTrawangan": {
+        "title": "Gili Trawangan",
+        "description": "Favorite tropical island with white sand, snorkeling, and vibrant nightlife."
+      },
+      "giliNanggu": {
+        "title": "Gili Nanggu",
+        "description": "Small peaceful island with crystal clear water, perfect for relaxation and snorkeling."
+      },
+      "giliGede": {
+        "title": "Gili Gede",
+        "description": "Largest island in southern Lombok with pristine natural beauty and peaceful atmosphere."
+      },
+      "pinkBeach": {
+        "title": "Pink Beach",
+        "description": "Unique beach with pink-colored sand and exotic ocean panorama."
+      },
+      "sasakTour": {
+        "title": "Sasak Tour",
+        "description": "Explore traditional Sasak villages and learn about the culture and handicrafts of Lombok."
+      },
+      "mataramTour": {
+        "title": "Mataram Tour",
+        "description": "Explore Lombok's capital with royal history, ancient temples, and local cuisine."
+      },
+      "benangKelambu": {
+        "title": "Benang Kelambu Waterfall",
+        "description": "Stunning waterfall with natural curtain of water in the tropical forest."
+      },
+      "senggigi": {
+        "title": "Senggigi",
+        "description": "Classic Lombok tourist destination with beautiful sunset and complete facilities."
+      },
+      "mandalikaCircuit": {
+        "title": "Mandalika Circuit",
+        "description": "International MotoGP racing circuit with modern facilities and ocean views."
+      },
+      "sembalunRinjani": {
+        "title": "Sembalun Rinjani",
+        "description": "Mountain village at the foot of Mount Rinjani, main gateway for trekking and nature tourism."
+      }
+    }
+  },
+  "consultation": {
+    "badge": "Free, no commitment",
+    "title": "Lombok Trip Consultation",
+    "subtitle": "Tell us about your holiday plan. Our local team will help you choose the most suitable destinations, duration, and transport — for free.",
+    "point1": "Answered directly on WhatsApp by our local team",
+    "point2": "Package recommendations to fit your budget and dates",
+    "point3": "Feel free to ask first, no need to book right away",
+    "hoursLabel": "Operating hours",
+    "hours": "Daily, 08.00–22.00 WITA",
+    "whatsappLabel": "WhatsApp",
+    "responseNote": "Usually answered during operating hours.",
+    "form": {
+      "title": "Consultation Form",
+      "name": "Full name",
+      "phone": "Your WhatsApp number",
+      "phonePlaceholder": "E.g. 0812xxxxxxx",
+      "destination": "Destination you're interested in",
+      "destinationPlaceholder": "Choose a destination",
+      "notSure": "Not sure yet, please recommend",
+      "date": "Departure date",
+      "participants": "Number of travellers",
+      "participantsPlaceholder": "E.g. 4",
+      "duration": "Trip duration",
+      "durationPlaceholder": "Choose a duration",
+      "message": "Tell us about your trip plan (optional)",
+      "messagePlaceholder": "E.g. honeymoon for 3 days, we love beaches and snorkeling...",
+      "send": "Send via WhatsApp",
+      "note": "This form will open WhatsApp with a pre-filled message. No data is stored on the website."
+    },
+    "waGreeting": "Hello Sasak Journey, I'd like a consultation about a Lombok trip.",
+    "waFooter": "Please share the details and your recommendations. Thank you.",
+    "waMessageLabel": "Message",
+    "waPeople": "people",
+    "floatLabel": "Chat on WhatsApp",
+    "floatGreeting": "Hello Sasak Journey, I'd like to ask about a Lombok trip."
+  },
+  "searchResults": {
+    "title": "Search Results",
+    "subtitle": "Found {count} packages matching your criteria",
+    "noResults": "No packages found",
+    "noResultsDescription": "Try adjusting your search filters or explore our popular destinations",
+    "filters": {
+      "title": "Filters",
+      "category": "Category",
+      "destination": "Destination",
+      "duration": "Duration",
+      "priceRange": "Price Range",
+      "clearFilters": "Clear All"
+    },
+    "sortBy": {
+      "label": "Sort by",
+      "priceLow": "Price: Low to High",
+      "priceHigh": "Price: High to Low",
+      "popular": "Most Popular",
+      "newest": "Newest"
+    },
+    "packages": {
+      "perPerson": "per person",
+      "duration": "Days",
+      "nights": "Nights",
+      "viewDetails": "View Details",
+      "bookNow": "Book Now"
+    }
+  },
+  "destinationDetail": {
+    "title": "Destination Details",
+    "overview": "Overview",
+    "highlights": "Highlights",
+    "itinerary": "Itinerary",
+    "included": "What's Included",
+    "excluded": "What's Excluded",
+    "pricing": "Pricing",
+    "gallery": "Gallery",
+    "reviews": "Reviews",
+    "relatedDestinations": "Related Destinations",
+    "bookNow": "Book Now",
+    "contactUs": "Contact Us",
+    "perPerson": "per person",
+    "days": "Days",
+    "nights": "Nights",
+    "rating": "Rating",
+    "reviewsCount": "{count} Reviews",
+    "startingFrom": "Starting from",
+    "readMore": "Read More",
+    "readLess": "Read Less",
+    "day": "Day",
+    "items": {
+      "included": {
+        "accommodation": "Accommodation",
+        "meals": "Meals",
+        "transportation": "Transportation",
+        "guide": "Professional Guide",
+        "entrance": "Entrance Fees",
+        "insurance": "Travel Insurance"
+      },
+      "excluded": {
+        "flights": "International Flights",
+        "personal": "Personal Expenses",
+        "tips": "Tips & Gratuities",
+        "optional": "Optional Activities"
+      }
+    }
+  },
+  "transportation": {
+    "badge": "Vehicle Rental",
+    "title": "Transportation Services",
+    "subtitle": "Explore Lombok comfortably with our well-maintained fleet of vehicles. Equipped with experienced and friendly drivers who know all the tourist destinations in Lombok.",
+    "durationInfo": "All rental packages are valid for 12 hours of travel",
+    "persons": "persons",
+    "hours": "hours",
+    "hour": "hour",
+    "includesLabel": "Includes",
+    "free": "Free",
+    "extraTime": "Overtime",
+    "extraArea": "Extra charge for",
+    "bookViaWhatsApp": "Book via WhatsApp",
+    "needHelp": "Need Help?",
+    "needHelpDesc": "Our team is ready to help you choose the right vehicle for your journey in Lombok.",
+    "contactUs": "Contact Us",
+    "includes": {
+      "car": "Vehicle",
+      "fuel": "Fuel",
+      "driver": "Driver"
+    },
+    "freeItems": {
+      "mineralWater": "Mineral Water"
+    }
+  },
+  "contactPage": {
+    "title": "Contact Us",
+    "subtitle": "We are ready to help you plan your dream holiday in Lombok. Contact us via the form below or through direct contact.",
+    "form": {
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "WhatsApp Number",
+      "subject": "Subject",
+      "message": "Your Message",
+      "send": "Send Message",
+      "success": "Message created! Redirecting to WhatsApp...",
+      "title": "Send a Message"
+    },
+    "info": {
+      "office": "Our Office",
+      "address": "Jl. Pariwisata Pantai Kuta, Mandalika, Central Lombok, NTB 83573",
+      "phone": "Phone & WhatsApp",
+      "email": "Our Email",
+      "operationHours": "Operating Hours",
+      "hours": "Daily: 08.00 AM - 10.00 PM WITA"
+    }
+  },
+  "footer": {
+    "description": "Sasak Journey is your best travel companion in Lombok. We provide the best tour packages and transportation for an unforgettable holiday experience.",
+    "quickLinks": "Quick Links",
+    "contact": "Contact Us",
+    "followUs": "Follow Us",
+    "copyright": "Sasak Journey. All rights reserved."
+  }
+}
