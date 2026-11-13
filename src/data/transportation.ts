@@ -32,7 +32,7 @@ export const vehiclePackages: VehiclePackage[] = [
         capacity: 5,
         include: ["car", "fuel", "driver"],
         freeItems: ["mineralWater"],
-        image: "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?q=80&w=800",
+        image: "https://www.toyotacirebon.id/file/avanza2021-07.jpg",
     },
     {
         id: "innova-reborn",
@@ -44,7 +44,7 @@ export const vehiclePackages: VehiclePackage[] = [
         capacity: 5,
         include: ["car", "fuel", "driver"],
         freeItems: ["mineralWater"],
-        image: "https://images.unsplash.com/photo-1619767886558-efdc259cde1a?q=80&w=800",
+        image: "https://imgx.gridoto.com/crop/0x0:0x0/750x500/photo/2025/12/02/toyota-kijang-innova-reborn-flj-20251202022523.jpg",
     },
     {
         id: "grand-innova",
@@ -56,7 +56,7 @@ export const vehiclePackages: VehiclePackage[] = [
         capacity: 5,
         include: ["car", "fuel", "driver"],
         freeItems: ["mineralWater"],
-        image: "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?q=80&w=800",
+        image: "https://www.luxurybalitravel.com/wp-content/uploads/2020/08/Toyota-Grand-Innova5.jpg",
     },
     {
         id: "toyota-hiace",
@@ -71,7 +71,7 @@ export const vehiclePackages: VehiclePackage[] = [
             price: 150000,
         },
         freeItems: ["mineralWater"],
-        image: "https://images.unsplash.com/photo-1570125909232-eb263c188f7e?q=80&w=800",
+        image: "https://jwc.gotra-resources.my.id/web-upload/1687324605-21-06-2023-FbgsOVEQTcpLWP61kG8vfxBY9CnUtDdz.png",
     },
     {
         id: "medium-bus",
@@ -83,7 +83,7 @@ export const vehiclePackages: VehiclePackage[] = [
         capacity: 30,
         include: ["car", "fuel", "driver"],
         freeItems: ["mineralWater"],
-        image: "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?q=80&w=800",
+        image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh6vsRNBNR29sJAFRazccuIR57I6fBFU5tOwCXTt1e2DuOx4LvE1kZ_hH_Ws-1pSu6AmSM0rStovhRnu8bR99B5eUu-ZNdCvoxtSqgF3w-kKwB3QmsU2iKiKXLrOJ5COKgRa2PGd56mKonW/s1600/1665673924856852-0.png",
     },
     {
         id: "big-bus",
@@ -95,7 +95,7 @@ export const vehiclePackages: VehiclePackage[] = [
         capacity: 45,
         include: ["car", "fuel", "driver"],
         freeItems: ["mineralWater"],
-        image: "https://images.unsplash.com/photo-1557223562-6c77ef16210f?q=80&w=800",
+        image: "https://kinglong.ae/wcm/connect/kinglong.ae3130/c851ea8a-9902-47d0-94b9-bac009d3c5ba/xmq6128_05_e1571120390124_ca09e583f4.jpg?MOD=AJPERES&CACHEID=ROOTWORKSPACE.Z18_MGD4GA015HEHD06J7QOTSH6806-c851ea8a-9902-47d0-94b9-bac009d3c5ba-oyV3KSw",
     },
 ];
 

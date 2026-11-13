@@ -175,7 +175,7 @@ Mohon ketersediaannya. Terima kasih.`;
                                         width: "100%",
                                         height: 260,
                                         overflow: "hidden",
-                                        backgroundColor: "#F3F4F6",
+                                        backgroundColor: "#FFFFFF",
                                     }}
                                 >
                                     <Image
@@ -187,7 +187,7 @@ Mohon ketersediaannya. Terima kasih.`;
                                         fill
                                         className="vehicle-image"
                                         style={{
-                                            objectFit: "cover",
+                                            objectFit: "contain",
                                             transition: "transform 0.6s ease"
                                         }}
                                     />

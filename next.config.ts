@@ -11,6 +11,26 @@ const nextConfig: NextConfig = {
       },
       {
         protocol: "https",
+        hostname: "www.toyotacirebon.id",
+      },
+      {
+        protocol: "https",
+        hostname: "imgx.gridoto.com",
+      },
+      {
+        protocol: "https",
+        hostname: "www.luxurybalitravel.com",
+      },
+      {
+        protocol: "https",
+        hostname: "jwc.gotra-resources.my.id",
+      },
+      {
+        protocol: "https",
+        hostname: "kinglong.ae",
+      },
+      {
+        protocol: "https",
         hostname: "images.unsplash.com",
       },
       {
