@@ -7,139 +7,7 @@ const nextConfig: NextConfig = {
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "sasak-journey.vercel.app",
-      },
-      {
-        protocol: "https",
-        hostname: "www.toyotacirebon.id",
-      },
-      {
-        protocol: "https",
-        hostname: "imgx.gridoto.com",
-      },
-      {
-        protocol: "https",
-        hostname: "www.luxurybalitravel.com",
-      },
-      {
-        protocol: "https",
-        hostname: "jwc.gotra-resources.my.id",
-      },
-      {
-        protocol: "https",
-        hostname: "kinglong.ae",
-      },
-      {
-        protocol: "https",
-        hostname: "images.unsplash.com",
-      },
-      {
-        protocol: "https",
-        hostname: "ik.imgkit.net",
-      },
-      {
-        protocol: "https",
-        hostname: "www.itdc.co.id",
-      },
-      {
-        protocol: "https",
-        hostname: "australindo.co.id",
-      },
-      {
-        protocol: "https",
-        hostname: "backend.destinasian.co.id",
-      },
-      {
-        protocol: "https",
-        hostname: "blogger.googleusercontent.com",
-      },
-      {
-        protocol: "https",
-        hostname: "res.cloudinary.com",
-      },
-      {
-        protocol: "https",
-        hostname: "paketwisatalombok.id",
-      },
-      {
-        protocol: "https",
-        hostname: "only1invillage.com",
-      },
-      {
-        protocol: "https",
-        hostname: "finnsbeachclub.com",
-      },
-      {
-        protocol: "https",
-        hostname: "zjglidcehtsqqqhbdxyp.supabase.co",
-      },
-      {
-        protocol: "https",
-        hostname: "res.klook.com",
-      },
-      {
-        protocol: "https",
-        hostname: "tunjungtransport.com",
-      },
-      {
-        protocol: "https",
-        hostname: "upload.wikimedia.org",
-      },
-      {
-        protocol: "https",
-        hostname: "image.idntimes.com",
-      },
-      {
-        protocol: "https",
-        hostname: "www.masterplandesa.com",
-      },
-      {
-        protocol: "https",
-        hostname: "static.promediateknologi.id",
-      },
-      {
-        protocol: "https",
-        hostname: "lombokindotrans.com",
-      },
-      {
-        protocol: "https",
-        hostname: "www.weseektravel.com",
-      },
-      {
-        protocol: "https",
-        hostname: "travelwiththesmile.com",
-      },
-      {
-        protocol: "https",
-        hostname: "www.korinatour.co.id",
-      },
-      {
-        protocol: "https",
-        hostname: "thelangkahtravel.com",
-      },
-      {
-        protocol: "https",
-        hostname: "jonistravelling.com",
-      },
-      {
-        protocol: "https",
-        hostname: "www.expeditieaardbol.nl",
-      },
-      {
-        protocol: "https",
-        hostname: "mediaim.expedia.com",
-      },
-      {
-        protocol: "https",
-        hostname: "www.eigeradventure.com",
-      },
-      {
-        protocol: "https",
-        hostname: "media-cdn.tripadvisor.com",
-      },
-      {
-        protocol: "https",
-        hostname: "www.hikingrinjani.com",
+        hostname: "adventureindonesia.com",
       },
       {
         protocol: "https",
@@ -147,31 +15,35 @@ const nextConfig: NextConfig = {
       },
       {
         protocol: "https",
-        hostname: "s-light.tiket.photos",
+        hostname: "blogger.googleusercontent.com",
       },
       {
         protocol: "https",
-        hostname: "media.istockphoto.com",
+        hostname: "cdn.kimkim.com",
       },
       {
         protocol: "https",
-        hostname: "pariwisataindonesia.id",
+        hostname: "cdn.prod.website-files.com",
       },
       {
         protocol: "https",
-        hostname: "s3.nevaobjects.id",
+        hostname: "coconut-story.com",
       },
       {
         protocol: "https",
-        hostname: "gontb.com",
+        hostname: "faszination-suedostasien.de",
       },
       {
         protocol: "https",
-        hostname: "www.rumah123.com",
+        hostname: "gobackpacking.com",
       },
       {
         protocol: "https",
-        hostname: "assets.promediateknologi.id",
+        hostname: "gomandalika.com",
+      },
+      {
+        protocol: "https",
+        hostname: "i0.wp.com",
       },
       {
         protocol: "https",
@@ -179,15 +51,123 @@ const nextConfig: NextConfig = {
       },
       {
         protocol: "https",
-        hostname: "dynamic-media-cdn.tripadvisor.com",
+        hostname: "ik.imgkit.net",
       },
       {
         protocol: "https",
-        hostname: "firstlomboktour.com",
+        hostname: "image.idntimes.com",
       },
       {
         protocol: "https",
-        hostname: "www.lazone.id",
+        hostname: "images.ctfassets.net",
+      },
+      {
+        protocol: "https",
+        hostname: "images.squarespace-cdn.com",
+      },
+      {
+        protocol: "https",
+        hostname: "images.tourscanner.com",
+      },
+      {
+        protocol: "https",
+        hostname: "images.trvl-media.com",
+      },
+      {
+        protocol: "https",
+        hostname: "images.unsplash.com",
+      },
+      {
+        protocol: "https",
+        hostname: "imgx.gridoto.com",
+      },
+      {
+        protocol: "https",
+        hostname: "iseeindonesia.com",
+      },
+      {
+        protocol: "https",
+        hostname: "jejakpiknik.com",
+      },
+      {
+        protocol: "https",
+        hostname: "jwc.gotra-resources.my.id",
+      },
+      {
+        protocol: "https",
+        hostname: "kelilingnusantara.com",
+      },
+      {
+        protocol: "https",
+        hostname: "kinglong.ae",
+      },
+      {
+        protocol: "https",
+        hostname: "local-bali.com",
+      },
+      {
+        protocol: "https",
+        hostname: "lombokindotrans.com",
+      },
+      {
+        protocol: "https",
+        hostname: "lombokloop.com",
+      },
+      {
+        protocol: "https",
+        hostname: "lostonlombok.com",
+      },
+      {
+        protocol: "https",
+        hostname: "mediaim.expedia.com",
+      },
+      {
+        protocol: "https",
+        hostname: "resources.motogp.pulselive.com",
+      },
+      {
+        protocol: "https",
+        hostname: "s3.nevaobjects.id",
+      },
+      {
+        protocol: "https",
+        hostname: "sasak-journey.vercel.app",
+      },
+      {
+        protocol: "https",
+        hostname: "sembalun7summits.com",
+      },
+      {
+        protocol: "https",
+        hostname: "static.333travel.nl",
+      },
+      {
+        protocol: "https",
+        hostname: "thelangkahtravel.com",
+      },
+      {
+        protocol: "https",
+        hostname: "tourevent.id",
+      },
+      {
+        protocol: "https",
+        hostname: "trekindonesia.com",
+      },
+      {
+        protocol: "https",
+        hostname: "upload.wikimedia.org",
+      },
+      {
+        protocol: "https",
+        hostname: "usercontent.one",
+      },
+      {
+        protocol: "https",
+        hostname: "valsatravel.com",
+      },
+      {
+        protocol: "https",
+        hostname: "www.blj.co.id",
       },
       {
         protocol: "https",
@@ -195,12 +175,37 @@ const nextConfig: NextConfig = {
       },
       {
         protocol: "https",
-        hostname: "kemenparekraf.go.id",
+        hostname: "www.lazone.id",
       },
       {
         protocol: "https",
-        hostname: "cdn.timesmedia.co.id",
+        hostname: "www.luxurybalitravel.com",
       },
+      {
+        protocol: "https",
+        hostname: "www.mataramweb.com",
+      },
+      {
+        protocol: "https",
+        hostname: "www.nayakasurfschool.com",
+      },
+      {
+        protocol: "https",
+        hostname: "www.tourcompass.co.uk",
+      },
+      {
+        protocol: "https",
+        hostname: "www.toyotacirebon.id",
+      },
+      {
+        protocol: "https",
+        hostname: "www.tusktravel.com.mx",
+      },
+      {
+        protocol: "https",
+        hostname: "zjglidcehtsqqqhbdxyp.supabase.co",
+      },
+
     ],
   },
 };

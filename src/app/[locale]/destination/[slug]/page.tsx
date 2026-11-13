@@ -1,6 +1,14 @@
 "use client";
 
 import { formatPrice } from "@/data/destinations";
+import {
+    IG_BENANG_KELAMBU_GALLERY,
+    IG_BENANG_KELAMBU_HERO,
+    IG_GILI_NANGGU_GALLERY,
+    IG_GILI_NANGGU_HERO,
+    IG_SEMBALUN_RINJANI_GALLERY,
+    IG_SEMBALUN_RINJANI_HERO,
+} from "@/data/instagramPhotos";
 import { Link } from "@/i18n/navigation";
 import {
   ArrowBack as ArrowBackIcon,
@@ -64,13 +72,12 @@ const destinationData: Record<
     days: 3,
     nights: 2,
     price: 4500000,
-    image:
-      "https://ik.imgkit.net/3vlqs5axxjf/external/https://www.cfmedia.vfmleonardo.com/imageRepo/1/0/206/473/299/B1NyCt9vi0SpsWXTR0jPw_a1k2_ho_00_p_3000x2250_O.jpg?tr=w-940%2Ch-529%2Cfo-auto%2Cdi-ami-fallback.png",
+    image: "https://images.tourscanner.com/wp-content/uploads/2022/06/Mandalika-Beach-Lombok.jpg",
     gallery: [
-      "https://www.itdc.co.id/file/portofolio/20240727033724GurnUY8Kxbty2wWSGeTqcFrlYg0iJx.jpg",
-      "https://australindo.co.id/image/catalog/project/2025/pullman-lombok/Pullman-Cover.jpg",
-      "https://www.itdc.co.id/file/press_release/20210922015052tcJNsz9Bp8ylbUmg4kgYNZb0YzJXK0.jpg",
-      "https://backend.destinasian.co.id/id/wp/wp-content/uploads/1-Pullman-Lombok-Mandalika-Beach-Resort-10.jpg",
+      "https://cdn.prod.website-files.com/64b222c42a8a72a3d7b1f51e/6531e7587fdd85bf654ed306_Kuta-mandalika-beach-aerial-view-HQ.jpeg",
+      "https://gomandalika.com/wp-content/uploads/2023/10/Areguling-2-Cover-scaled.jpg",
+      "https://iseeindonesia.com/wp-content/uploads/2023/09/1694069466_56_10-Beaches-For-You-To-Visit-Around-Mandalika-Lombok.jpg",
+      "https://www.indonesia.travel/contentassets/979b4c777b224e2f9d2ee7b4487d3290/_what-makes-mandalika-an-incredible-destination-these-7-things-will-give-you-the-answer.webp",
     ],
     description:
       "Kawasan wisata terpadu dengan pantai indah, resor mewah, dan Sirkuit MotoGP kelas dunia.",
@@ -116,13 +123,12 @@ const destinationData: Record<
     days: 3,
     nights: 2,
     price: 3800000,
-    image:
-      "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjQLZPu6Aul1am6jriYgNGZhXfGhuUCl3PsSoXC2ibF7xQj5n0gBgxPWHJbojfxKWmAaFM7Msbrx1blMmOC0N99w_ZAoeUeDT4zyA9pVZGeSZSgxAWmxkWqrBY0ubJxf2Qrff4bdTVdgLc/s1600/Gili+Trawangan+3.jpg",
+    image: "https://gobackpacking.com/wp-content/uploads/2021/08/Gili-Trawangan-Indonesia.jpg",
     gallery: [
-      "https://res.cloudinary.com/zublu/image/fetch/f_webp,w_1200,q_auto/https://www.zubludiving.com/images/Indonesia/Lombok/Gili-Islands/Gili-Islands-Scuba-Diving-Trawangan-Air-Lombok-4.jpg",
-      "https://paketwisatalombok.id/wp-content/uploads/2019/03/harga-paket-wisata-gili-trawangan-lombok.jpg ",
-      "https://only1invillage.com/wp-content/uploads/2018/11/20180430_145423_HDR.jpg",
-      " https://finnsbeachclub.com/wp-content/uploads/2023/12/local-transport-on-indonesian-island-with-no-cars-gili-air-scaled.jpg",
+      "https://authentic-indonesia.com/wp-content/uploads/2018/06/gilis-sunset-1.jpg",
+      "https://lostonlombok.com/wp-content/uploads/2022/12/Gili-T-Snorkeling.jpg",
+      "https://local-bali.com/wp-content/uploads/2020/04/Cidomo-Gili-1024x569.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/0/01/Boats_at_Eastern_Gili_Trawangan_Beach.jpg",
     ],
     description:
       "Pulau tropis favorit dengan pasir putih, snorkeling, dan kehidupan malam yang hidup.",
@@ -168,12 +174,12 @@ const destinationData: Record<
     days: 2,
     nights: 1,
     price: 3200000,
-    image:
-      "https://zjglidcehtsqqqhbdxyp.supabase.co/storage/v1/object/public/atourin/images/destination/lombok/gili-nanggu-profile1645778199.png?x-image-process=image/resize,p_100,limit_1/imageslim",
+    image: IG_GILI_NANGGU_HERO,
     gallery: [
-      "https://res.klook.com/image/upload/w_750,h_469,c_fill,q_85/w_80,x_15,y_15,g_south_west,l_Klook_water_br_trans_yhcmh3/activities/xwa1ejgeljmkalpywzms.jpg",
-      "https://tunjungtransport.com/wp-content/uploads/2023/07/gili-nanggu-gili-sudak-gili-kedis-e1689128993352.webp",
-      "https://upload.wikimedia.org/wikipedia/commons/3/3b/Gili_nanggu_lombok_barat.jpg",
+      IG_GILI_NANGGU_GALLERY,
+      "https://www.tusktravel.com.mx/blog/wp-content/uploads/2020/08/Indonesia-Snorkeling-in-Gili-Nanggu-1024x683.jpg",
+      "https://adventureindonesia.com/wp-content/uploads/2020/03/gili-nanggu.jpeg",
+      "https://trekindonesia.com/wp-content/uploads/2025/12/gili-nanggu-1.webp",
     ],
     description:
       "Pulau kecil yang tenang dengan air laut jernih, cocok untuk relaksasi dan snorkeling.",
@@ -213,12 +219,12 @@ const destinationData: Record<
     days: 2,
     nights: 1,
     price: 3500000,
-    image:
-      "https://lombokindotrans.com/wp-content/uploads/2024/03/Pantai-Pink-Lombok.jpg",
+    image: "https://www.nayakasurfschool.com/wp-content/uploads/2020/02/Tangsi-beach-lombok-island.jpg",
     gallery: [
-      "https://www.weseektravel.com/wp-content/uploads/2019/10/pink-beach-lombok-7-1024x682.jpg",
-      "https://travelwiththesmile.com/wp-content/uploads/2018/07/Pink-Beach-trip-in-Lombok-8-1024x683.jpg",
-      "https://www.korinatour.co.id/wp-content/uploads/2018/05/3-10.png",
+      "https://lombokloop.com/wp-content/uploads/2025/01/pink-beach-lombok-2.jpg",
+      "https://images.ctfassets.net/dsbipkqphva2/gbF5PSWH0nAeTOQqBXM1Q/b09b96765c196e55ab363c53ec57c489/pink-beach-lombok-pelago-1-min.jpg",
+      "https://images.trvl-media.com/place/6278535/7170a19a-6d34-4251-8290-a308c7a9646f.jpg?impolicy=fcrop&w=1200&h=500&q=medium",
+      "https://coconut-story.com/wp-content/uploads/2023/02/lombok-pink-beach-2-1160x652.jpg",
     ],
     description:
       "Pantai unik dengan pasir berwarna merah muda dan panorama laut yang eksotis.",
@@ -258,12 +264,12 @@ const destinationData: Record<
     days: 3,
     nights: 2,
     price: 3000000,
-    image:
-      "https://thelangkahtravel.com/wp-content/uploads/2020/03/Pantai-Senggigi-Lombok-2.jpg",
+    image: "https://valsatravel.com/storage/2026/01/Pantai-Senggigi-03-1024x724.jpg",
     gallery: [
-      "https://www.weseektravel.com/wp-content/uploads/2019/09/white-sand-beach-senggigi-1-1024x682.jpg",
-      "https://jonistravelling.com/wp-content/uploads/2022/09/senggigi-beach-lombok-indonesia-1.jpg",
-      "https://www.expeditieaardbol.nl/wp-content/uploads/Indonesie-Lombok-Senggigi-Beach-5.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Senggigi_Beach_by_Senggigi_Beach_Hotel.JPG/1280px-Senggigi_Beach_by_Senggigi_Beach_Hotel.JPG?utm_source=en.wikivoyage.org&utm_campaign=index&utm_content=thumbnail",
+      "https://www.tourcompass.co.uk/api/attachments/wp-content/uploads/2019/11/D5a-Senggigi-bugten-p%C3%A5-Lombok-3.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/6/6d/Lombok_BatuBolong_EmptyThrone.JPG?utm_source=en.wikivoyage.org&utm_campaign=index&utm_content=thumbnail_unscaled",
+      "https://www.blj.co.id/wp-content/uploads/2022/03/Senggigi-3.jpeg",
     ],
     description:
       "Destinasi wisata klasik Lombok dengan sunset indah dan fasilitas lengkap.",
@@ -309,12 +315,12 @@ const destinationData: Record<
     days: 4,
     nights: 3,
     price: 4200000,
-    image:
-      "https://mediaim.expedia.com/destination/1/e34d20eb8465a1d809dbdb6104de2587.jpg",
+    image: IG_SEMBALUN_RINJANI_HERO,
     gallery: [
-      "https://www.eigeradventure.com/blog/wp-content/uploads/2024/07/image-39.jpeg",
-      "https://media-cdn.tripadvisor.com/media/photo-s/19/de/16/ab/plawangan-sembalun-crater.jpg",
-      "https://www.hikingrinjani.com/tag/images/plawangan-sembalun-crater4.jpg",
+      IG_SEMBALUN_RINJANI_GALLERY,
+      "https://thelangkahtravel.com/wp-content/uploads/2020/02/Savana-Propok-Lombok-1024x576.jpg",
+      "https://lombokloop.com/wp-content/uploads/2024/10/sembalun-village-lombok-1-1024x767.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Rinjani_Summit_Sunrise.jpg/960px-Rinjani_Summit_Sunrise.jpg?utm_source=en.wikivoyage.org&utm_campaign=index&utm_content=thumbnail",
     ],
     description:
       "Desa pegunungan di kaki Gunung Rinjani, gerbang utama pendakian dan wisata alam.",
@@ -373,11 +379,12 @@ const destinationData: Record<
     days: 2,
     nights: 1,
     price: 2800000,
-    image:
-      "https://image.idntimes.com/post/20230110/images-2023-01-10t132811169-d3d8d06aa1448f3fe68a341e3dbae61d.jpeg",
+    image: "https://authentic-indonesia.com/wp-content/uploads/2019/10/gili-gede-lombok.jpg",
     gallery: [
-      "https://www.masterplandesa.com/wp-content/uploads/2025/01/Desa-Gili-Gede-Indah.jpg", "https://static.promediateknologi.id/crop/0x0:0x0/0x0/webp/photo/p2/221/2024/10/15/WhatsApp-Image-2024-10-09-at-231518-689420762.jpeg",
-      "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgIBgJHrco4UL5DcAocc_f9r8AJN9Xk7uFLRui2wIuDGq5qsX1OFx0rmOOPVaHeSbJp0PtQ7hl2DawscweGWTbJtYyn03QIbh_faJEAikXKoQH6K3Tia5y-pmk39FAjnYB6CRWrvr1MyemTMh_Ql0HvTO1ApHXTq2SK6ghPKyeyKZXQAamJBXxqHTtt0ish/s474/IMG_20250728_161851.jpg",
+      "https://jejakpiknik.com/wp-content/uploads/2017/12/@whodoido.jpg",
+      "https://jejakpiknik.com/wp-content/uploads/2017/12/@schoschi090596.jpg",
+      "https://jejakpiknik.com/wp-content/uploads/2017/12/@alexa__fortin.jpg",
+      "https://jejakpiknik.com/wp-content/uploads/2017/12/@mael-e1579904825525.jpg",
     ],
     description:
       "Pulau terbesar di selatan Lombok dengan keindahan alam yang masih asri dan suasana tenang.",
@@ -417,12 +424,12 @@ const destinationData: Record<
     days: 2,
     nights: 1,
     price: 1500000,
-    image:
-      "https://authentic-indonesia.com/wp-content/uploads/2018/04/The-Traditional-Villages-of-Lombok.jpg",
+    image: "https://www.mataramweb.com/wp-content/uploads/2025/01/sasak-tribe-traditional-house-in-sade-village-lombok-indonesia.jpg",
     gallery: [
-      "https://s-light.tiket.photos/t/01E25EBZS3W0FY9GTG6C42E1SE/rsfit800600gsm/eventThirdParty/2024/11/07/c18affc6-7845-4540-b889-5b0d28e17ffe-1730948645569-0560ccc233db8ae6fec0d7906f5247c8.jpg",
-      "https://media.istockphoto.com/id/1022562592/photo/sasak-village-lombok-island-west-nusa-tenggara-indonesia.jpg?s=612x612&w=0&k=20&c=_7jrpkn-_6YOwWnqGKVEQbtSgvsfJpt3UlzHBCN8GV8=",
-      "https://pariwisataindonesia.id/wp-content/uploads/2021/08/Traditional-design-of-the-exterior-of-SASAK-houses-in-Lombok-Island-Indonesia.-Frame-and-roof-are-made-of-wood-bamboo-and-straw-leaves-of-coconut-trees.-1.jpg",
+      "https://ik.imagekit.io/goodid/gnfi/uploads/articles/large-desa-sade-lombok-keunikan-dan-pesona-rumah-tradisional-suku-sasak-yang-ramah-lingkungan-1k8NaVkvHD.jpg?tr=w-1200,h-675,fo-center",
+      "https://ik.imagekit.io/tvlk/dam/i/01kfzg2ar359fmpbp3ecfaejxm.jpeg?tr=q-70,c-at_max,w-1000,h-600",
+      "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhEGCa-p626rUAj9kLaJVUtCUcZXJqnWfrPLFZBVHHxV1MrLReQ1feClVksty3xXFFfyfzh8E5ipT9JNBGmmXlt2zBdGxz9O4G__Zbs1NUkHR5yH2jvexmFm7byUixO1279Ej9h1yAHbgs0/",
+      "https://tourevent.id/wp-content/uploads/2021/06/Desa-Sade-by-COS-Indonesia-5.jpg",
     ],
     description:
       "Jelajahi desa-desa tradisional Sasak dan pelajari budaya serta kerajinan tangan khas Lombok.",
@@ -462,12 +469,12 @@ const destinationData: Record<
     days: 2,
     nights: 1,
     price: 1200000,
-    image:
-      "https://s3.nevaobjects.id/wp-content/uploads/2025/11/kota-mataram-2842322492.webp",
+    image: "https://i0.wp.com/tourevent.id/wp-content/uploads/2016/09/Islamic-Center-NTB-by-COs-Indonesia.jpg?resize=1024%2C576&ssl=1",
     gallery: [
-      "https://gontb.com/wp-content/uploads/2025/05/kota_mataram_2_4c5ebcf0e2.jpg",
-      "https://www.rumah123.com/seo-cms/assets/kota_mataram_3_ab79576a90/kota_mataram_3_ab79576a90.jpg",
-      "https://assets.promediateknologi.id/crop/0x0:0x0/750x500/webp/photo/2023/05/27/Tembolaq_Gate_Mataram-637960394.jpg",
+      "https://zjglidcehtsqqqhbdxyp.supabase.co/storage/v1/object/public/atourin/images/destination/mataram/pura-meru-profile1645720085.png?x-image-process=image/resize,p_100,limit_1/imageslim",
+      "https://upload.wikimedia.org/wikipedia/commons/b/b9/Mayura_Water_Palace_%286215204739%29.jpg?utm_source=en.wikivoyage.org&utm_campaign=index&utm_content=thumbnail_unscaled",
+      "https://www.indonesia.travel/contentassets/1d5f8340ca264eb8a5ea0848ae2055fa/tembolak-pelangi-mataram.jpg",
+      "https://images.squarespace-cdn.com/content/v1/55a10a4de4b04267aaec9d80/1473324066084-96U2NHRKPR13ORLOV2C9/_MG_8910.jpg?format=1500w",
     ],
     description:
       "Eksplorasi ibu kota Lombok dengan sejarah kerajaan, pura-pura kuno, dan kuliner lokal.",
@@ -507,11 +514,12 @@ const destinationData: Record<
     days: 2,
     nights: 1,
     price: 1800000,
-    image:
-      "https://ik.imagekit.io/tvlk/blog/2022/01/Wisata-Air-Terjun-Lombok-Benang-Kelambu-Shutterstock.jpg?tr=q-70,c-at_max,w-1000,h-600",
+    image: IG_BENANG_KELAMBU_HERO,
     gallery: [
-      "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/d8/2b/d2/lombok-island-is-not.jpg?w=1200&h=-1&s=1", "https://zjglidcehtsqqqhbdxyp.supabase.co/storage/v1/object/public/atourin/images/destination/lombok/air-terjun-benang-kelambu-profile1645573056.jpeg?x-image-process=image/resize,p_100,limit_1/imageslim",
-      "https://firstlomboktour.com/wp-content/uploads/2018/02/Pemandangan-Air-Terjun-Benang-Kelambu-sumber-ig-andritukul11.jpg",
+      IG_BENANG_KELAMBU_GALLERY,
+      "https://thelangkahtravel.com/wp-content/uploads/2015/08/Air-Terjun-Benang-Kelambu.jpg",
+      "https://images.squarespace-cdn.com/content/v1/6202075c11e33a5400e9f3ae/aeafcd9c-6499-46fb-afd8-f5761b100b1e/travel_photography_benang_kelambu_waterfalls_indonesia-8.jpg?format=1000w",
+      "https://faszination-suedostasien.de/wp-content/uploads/2022/07/lombok-benang-kelambu-wasserfall-1169058055.jpg.webp",
     ],
     description:
       "Air terjun menakjubkan dengan tirai air alami yang indah di tengah hutan tropis.",
@@ -551,11 +559,12 @@ const destinationData: Record<
     days: 2,
     nights: 1,
     price: 2500000,
-    image:
-      "https://www.lazone.id/storage/news/2024/Agustus/Sport/keren-abis-ini-5-rahasia-gokil-sirkuit-motogp-mandalika/orig-Sirkuit%20MotoGP%20Mandalika%20di%20Lombok.jpg",
+    image: "https://resources.motogp.pulselive.com/photo-resources/2025/10/01/d36f56c9-5bce-4f81-b13f-e70425ee952e/Pertamina-Mandalika-Circuit.jpg?width=1300",
     gallery: [
-      "https://www.indonesia.travel/contentassets/94a866f3e6244488b9c3641598ac0f8b/5-interesting-facts-about-pertamina-mandalika-international-street-circuit.jpg", "https://kemenparekraf.go.id/_next/image?url=https%3A%2F%2Fapi2.kemenparekraf.go.id%2Fstorage%2Fapp%2Fuploads%2Fpublic%2F63e%2F9cd%2F3d1%2F63e9cd3d10982365021986.jpg&w=3840&q=75",
-      "https://cdn.timesmedia.co.id/images/2021/08/23/Sirkuit-Mandalika.jpg",
+      "https://ik.imagekit.io/tvlk/blog/2022/01/SIRKUIT-MANDALIKA.jpg?tr=dpr-1.5,h-320,q-40,w-1024",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Main_Straight_of_Mandalika_International_Circuit.jpg/960px-Main_Straight_of_Mandalika_International_Circuit.jpg?utm_source=en.wikivoyage.org&utm_campaign=index&utm_content=thumbnail",
+      "https://images.squarespace-cdn.com/content/v1/6619fcfaede0342d74cf2299/5e4ecda7-52d0-4b93-a0b4-9bf3ecec2d52/Motorcycle+Racing+Mandalika+Circuit+17.JPG",
+      "https://ik.imagekit.io/tvlk/blog/2022/01/Mandalika-sirkuit.jpg?tr=q-70,c-at_max,w-1000,h-600",
     ],
     description:
       "Sirkuit balap internasional MotoGP dengan fasilitas modern dan pemandangan laut.",
@@ -705,6 +714,7 @@ export default function DestinationDetailPage() {
                   fill
                   style={{ objectFit: "cover" }}
                   priority
+                  unoptimized={destination.image.startsWith("data:")}
                 />
               </Box>
             </Grid>
@@ -926,6 +936,7 @@ export default function DestinationDetailPage() {
                           objectFit: "cover",
                           transition: "transform 0.3s ease",
                         }}
+                        unoptimized={img.startsWith("data:")}
                       />
                     </Box>
                   </Grid>
