@@ -58,7 +58,7 @@ export default function DestinationsPage() {
   };
 
   const getCategoryLabel = (value: string) => {
-    if (value === "all") return "Semua Destinasi";
+    if (value === "all") return tCategories("all");
     try {
       return tCategories(value);
     } catch {

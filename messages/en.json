@@ -33,7 +33,8 @@
         "tour": "Tour Journey",
         "business": "Business Trip",
         "honeymoon": "Honeymoon",
-        "sailing": "Sailing Trip"
+        "sailing": "Sailing Trip",
+        "all": "All Destinations"
       },
       "destinations": {
         "mandalika": "Mandalika",
