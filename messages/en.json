@@ -107,7 +107,11 @@
       "history": "History",
       "waterfall": "Waterfall",
       "sport": "Sport",
-      "racing": "Racing"
+      "racing": "Racing",
+      "sailing": "Sailing",
+      "komodo": "Komodo",
+      "whale-shark": "Whale Shark",
+      "padar": "Padar"
     },
     "items": {
       "mandalika": {
@@ -153,6 +157,14 @@
       "sembalunRinjani": {
         "title": "Sembalun Rinjani",
         "description": "Mountain village at the foot of Mount Rinjani, main gateway for trekking and nature tourism."
+      },
+      "sailingLombokLabuanBajo": {
+        "title": "Sailing Lombok – Labuan Bajo",
+        "description": "4 days 3 nights sailing with KLM Welenreng: whale sharks, Satonda Lake, Komodo dragons, Pink Beach, and Padar Island."
+      },
+      "sailingLabuanBajoLombok": {
+        "title": "Sailing Labuan Bajo – Lombok",
+        "description": "4 days 4 nights from Labuan Bajo: Padar sunrise, Komodo dragons, mantas, Pink Beach, whale sharks, and Mata Jitu Waterfall."
       }
     }
   },

@@ -107,7 +107,11 @@
       "history": "Sejarah",
       "waterfall": "Air Terjun",
       "sport": "Olahraga",
-      "racing": "Balap"
+      "racing": "Balap",
+      "sailing": "Sailing",
+      "komodo": "Komodo",
+      "whale-shark": "Whale Shark",
+      "padar": "Padar"
     },
     "items": {
       "mandalika": {
@@ -153,6 +157,14 @@
       "sembalunRinjani": {
         "title": "Sembalun Rinjani",
         "description": "Desa pegunungan di kaki Gunung Rinjani, gerbang utama pendakian dan wisata alam."
+      },
+      "sailingLombokLabuanBajo": {
+        "title": "Sailing Lombok – Labuan Bajo",
+        "description": "4 hari 3 malam berlayar dengan KLM Welenreng: whale shark, Danau Satonda, komodo, Pink Beach, dan Pulau Padar."
+      },
+      "sailingLabuanBajoLombok": {
+        "title": "Sailing Labuan Bajo – Lombok",
+        "description": "4 hari 4 malam dari Labuan Bajo: sunrise Padar, komodo, manta, Pantai Pink, whale shark, dan Air Terjun Mata Jitu."
       }
     }
   },
