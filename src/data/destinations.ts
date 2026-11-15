@@ -105,9 +105,7 @@ export const durations: Duration[] = [
     { id: "2d1n", labelKey: "2d1n" },
     { id: "3d2n", labelKey: "3d2n" },
     { id: "4d3n", labelKey: "4d3n" },
-    { id: "5d4n", labelKey: "5d4n" },
-    { id: "6d5n", labelKey: "6d5n" },
-    { id: "honeymoon", labelKey: "honeymoon" },
+    { id: "4d4n", labelKey: "4d4n" },
 ];
 
 // ==========================================
@@ -119,6 +117,7 @@ export interface PopularDestination {
     image: string;
     priceFrom: number;
     currency: string;
+    duration: string;
     location: string;
     tags: string[];
     categories: string[];
@@ -131,6 +130,7 @@ export const popularDestinations: PopularDestination[] = [
         image: "https://images.tourscanner.com/wp-content/uploads/2022/06/Mandalika-Beach-Lombok.jpg",
         priceFrom: 4500000,
         currency: "IDR",
+        duration: "3d2n",
         location: "Lombok Tengah, NTB",
         tags: ["beach", "resort", "motogp"],
         categories: ["beach", "city"],
@@ -141,6 +141,7 @@ export const popularDestinations: PopularDestination[] = [
         image: "https://gobackpacking.com/wp-content/uploads/2021/08/Gili-Trawangan-Indonesia.jpg",
         priceFrom: 3800000,
         currency: "IDR",
+        duration: "3d2n",
         location: "Lombok Utara, NTB",
         tags: ["island", "snorkeling", "nightlife"],
         categories: ["beach", "honeymoon"],
@@ -151,6 +152,7 @@ export const popularDestinations: PopularDestination[] = [
         image: "https://cdn.kimkim.com/files/a/images/c70de7da7759127851e5d24c34517f0e3455722f/original-c07dc8e7069d8e0dde8aaae033304fd5.jpg",
         priceFrom: 3200000,
         currency: "IDR",
+        duration: "2d1n",
         location: "Lombok Barat, NTB",
         tags: ["island", "peaceful", "snorkeling"],
         categories: ["beach", "honeymoon"],
@@ -161,6 +163,7 @@ export const popularDestinations: PopularDestination[] = [
         image: "https://authentic-indonesia.com/wp-content/uploads/2019/10/gili-gede-lombok.jpg",
         priceFrom: 2800000,
         currency: "IDR",
+        duration: "2d1n",
         location: "Lombok Barat, NTB",
         tags: ["island", "peaceful", "snorkeling"],
         categories: ["beach", "honeymoon"],
@@ -171,6 +174,7 @@ export const popularDestinations: PopularDestination[] = [
         image: "https://www.nayakasurfschool.com/wp-content/uploads/2020/02/Tangsi-beach-lombok-island.jpg",
         priceFrom: 3500000,
         currency: "IDR",
+        duration: "2d1n",
         location: "Lombok Timur, NTB",
         tags: ["beach", "iconic", "photography"],
         categories: ["beach"],
@@ -181,6 +185,7 @@ export const popularDestinations: PopularDestination[] = [
         image: "https://www.mataramweb.com/wp-content/uploads/2025/01/sasak-tribe-traditional-house-in-sade-village-lombok-indonesia.jpg",
         priceFrom: 1500000,
         currency: "IDR",
+        duration: "2d1n",
         location: "Lombok Tengah, NTB",
         tags: ["culture", "village", "tradition"],
         categories: ["culture", "tour"],
@@ -191,6 +196,7 @@ export const popularDestinations: PopularDestination[] = [
         image: "https://i0.wp.com/tourevent.id/wp-content/uploads/2016/09/Islamic-Center-NTB-by-COs-Indonesia.jpg?resize=1024%2C576&ssl=1",
         priceFrom: 1200000,
         currency: "IDR",
+        duration: "2d1n",
         location: "Mataram, NTB",
         tags: ["city", "culture", "history"],
         categories: ["city", "culture"],
@@ -201,6 +207,7 @@ export const popularDestinations: PopularDestination[] = [
         image: "https://usercontent.one/wp/www.sunshineseeker.com/wp-content/uploads/2023/12/Benang-Kelambu-Waterfall-Lombok-Things-To-Do-1536x1025.jpg?media=1742686013",
         priceFrom: 1800000,
         currency: "IDR",
+        duration: "2d1n",
         location: "Lombok Tengah, NTB",
         tags: ["waterfall", "nature", "trekking"],
         categories: ["tour"],
@@ -211,6 +218,7 @@ export const popularDestinations: PopularDestination[] = [
         image: "https://valsatravel.com/storage/2026/01/Pantai-Senggigi-03-1024x724.jpg",
         priceFrom: 3000000,
         currency: "IDR",
+        duration: "3d2n",
         location: "Lombok Barat, NTB",
         tags: ["beach", "sunset", "family"],
         categories: ["beach", "city"],
@@ -221,6 +229,7 @@ export const popularDestinations: PopularDestination[] = [
         image: "https://resources.motogp.pulselive.com/photo-resources/2025/10/01/d36f56c9-5bce-4f81-b13f-e70425ee952e/Pertamina-Mandalika-Circuit.jpg?width=1300",
         priceFrom: 2500000,
         currency: "IDR",
+        duration: "2d1n",
         location: "Lombok Tengah, NTB",
         tags: ["motogp", "sport", "racing"],
         categories: ["city", "business"],
@@ -231,6 +240,7 @@ export const popularDestinations: PopularDestination[] = [
         image: "https://static.333travel.nl/web-images/12/2024/675804f7211e2/indonesie-lombok-rinjani-vulkaan-krater-meer-2.jpeg",
         priceFrom: 4200000,
         currency: "IDR",
+        duration: "4d3n",
         location: "Lombok Timur, NTB",
         tags: ["mountain", "trekking", "nature"],
         categories: ["tour"],
@@ -241,6 +251,7 @@ export const popularDestinations: PopularDestination[] = [
         image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Phinisi%2C_Penjelajah_Pulau_di_Labuan_Bajo.jpg/1920px-Phinisi%2C_Penjelajah_Pulau_di_Labuan_Bajo.jpg",
         priceFrom: 6500000,
         currency: "IDR",
+        duration: "4d3n",
         location: "Lombok \u2013 Labuan Bajo, NTT",
         tags: ["sailing", "komodo", "whale-shark"],
         categories: ["sailing"],
@@ -251,6 +262,7 @@ export const popularDestinations: PopularDestination[] = [
         image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Pulau_Padar_1.jpg/1920px-Pulau_Padar_1.jpg",
         priceFrom: 6500000,
         currency: "IDR",
+        duration: "4d4n",
         location: "Labuan Bajo \u2013 Lombok",
         tags: ["sailing", "komodo", "padar"],
         categories: ["sailing"],

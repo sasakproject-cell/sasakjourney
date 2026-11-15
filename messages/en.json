@@ -57,7 +57,8 @@
         "4d3n": "4 Days / 3 Nights",
         "5d4n": "5 Days / 4 Nights",
         "6d5n": "6 Days / 5 Nights",
-        "honeymoon": "Honeymoon"
+        "honeymoon": "Honeymoon",
+        "4d4n": "4 Days / 4 Nights"
       }
     }
   },
@@ -167,7 +168,11 @@
         "title": "Sailing Labuan Bajo – Lombok",
         "description": "4 days 4 nights from Labuan Bajo: Padar sunrise, Komodo dragons, mantas, Pink Beach, whale sharks, and Mata Jitu Waterfall."
       }
-    }
+    },
+    "allDurations": "All Durations",
+    "noResults": "No destinations found",
+    "noResultsHint": "Try changing your search category or duration",
+    "resetFilters": "Clear Filters"
   },
   "consultation": {
     "badge": "Free, no commitment",

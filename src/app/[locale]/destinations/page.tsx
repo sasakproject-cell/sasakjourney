@@ -1,6 +1,7 @@
 "use client";
 
 import {
+  durations,
   formatPrice,
   popularDestinations,
   travelCategories,
@@ -21,40 +22,65 @@ import {
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 import { useRouter, useSearchParams } from "next/navigation";
-import { useEffect, useMemo, useState } from "react";
+import { useMemo } from "react";
 
 export default function DestinationsPage() {
   const searchParams = useSearchParams();
   const router = useRouter();
   const categoryParam = searchParams.get("category") || "all";
+  const destinationParam = searchParams.get("destination") || "";
+  const durationParam = searchParams.get("duration") || "all";
 
-  const [selectedCategory, setSelectedCategory] = useState(categoryParam);
+  // Filters derive straight from the URL so the hero search bar, the
+  // filter chips and the shown cards always stay in sync.
+  const selectedCategory = categoryParam;
+  const selectedDuration = durationParam;
   const t = useTranslations("destinations");
   const tItems = useTranslations("destinations.items");
   const tCategories = useTranslations("hero.searchForm.categories");
+  const tDurations = useTranslations("hero.searchForm.durations");
   const tTags = useTranslations("destinations.tags");
 
-  // Sync selectedCategory with URL params when they change
-  useEffect(() => {
-    setSelectedCategory(categoryParam);
-  }, [categoryParam]);
-
   const filteredDestinations = useMemo(() => {
-    if (selectedCategory === "all") {
-      return popularDestinations;
+    return popularDestinations.filter((dest) => {
+      if (
+        selectedCategory !== "all" &&
+        !dest.categories.includes(selectedCategory)
+      ) {
+        return false;
+      }
+      if (destinationParam && dest.slug !== destinationParam) {
+        return false;
+      }
+      if (selectedDuration !== "all" && dest.duration !== selectedDuration) {
+        return false;
+      }
+      return true;
+    });
+  }, [selectedCategory, selectedDuration, destinationParam]);
+
+  const buildFilterUrl = (category: string, duration: string) => {
+    const params = new URLSearchParams();
+    if (category !== "all") {
+      params.set("category", category);
     }
-    return popularDestinations.filter((dest) =>
-      dest.categories.includes(selectedCategory)
-    );
-  }, [selectedCategory]);
+    if (duration !== "all") {
+      params.set("duration", duration);
+    }
+    const query = params.toString();
+    return query ? `/destinations?${query}` : "/destinations";
+  };
 
   const handleCategoryChange = (newCategory: string) => {
-    setSelectedCategory(newCategory);
-    if (newCategory === "all") {
-      router.push("/destinations");
-    } else {
-      router.push(`/destinations?category=${newCategory}`);
-    }
+    router.push(buildFilterUrl(newCategory, selectedDuration));
+  };
+
+  const handleDurationChange = (newDuration: string) => {
+    router.push(buildFilterUrl(selectedCategory, newDuration));
+  };
+
+  const handleResetFilters = () => {
+    router.push("/destinations");
   };
 
   const getCategoryLabel = (value: string) => {
@@ -139,6 +165,54 @@ export default function DestinationsPage() {
               variant={selectedCategory === category.id ? "filled" : "outlined"}
               sx={{
                 fontWeight: selectedCategory === category.id ? 600 : 400,
+                cursor: "pointer",
+                transition: "all 0.3s ease",
+                "&:hover": {
+                  transform: "translateY(-2px)",
+                },
+              }}
+            />
+          ))}
+        </Paper>
+
+        {/* Duration Filter Tabs */}
+        <Paper
+          elevation={2}
+          sx={{
+            p: 2,
+            mb: 4,
+            borderRadius: 2,
+            display: "flex",
+            justifyContent: "center",
+            flexWrap: "wrap",
+            gap: 1,
+          }}
+        >
+          <Chip
+            label={t("allDurations")}
+            onClick={() => handleDurationChange("all")}
+            color={selectedDuration === "all" ? "primary" : "default"}
+            variant={selectedDuration === "all" ? "filled" : "outlined"}
+            sx={{
+              fontWeight: selectedDuration === "all" ? 600 : 400,
+              cursor: "pointer",
+              transition: "all 0.3s ease",
+              "&:hover": {
+                transform: "translateY(-2px)",
+              },
+            }}
+          />
+          {durations.map((duration) => (
+            <Chip
+              key={duration.id}
+              label={tDurations(duration.labelKey)}
+              onClick={() => handleDurationChange(duration.id)}
+              color={selectedDuration === duration.id ? "primary" : "default"}
+              variant={
+                selectedDuration === duration.id ? "filled" : "outlined"
+              }
+              sx={{
+                fontWeight: selectedDuration === duration.id ? 600 : 400,
                 cursor: "pointer",
                 transition: "all 0.3s ease",
                 "&:hover": {
@@ -314,11 +388,19 @@ export default function DestinationsPage() {
             }}
           >
             <Typography variant="h5" fontWeight={600} mb={1}>
-              Tidak ada destinasi ditemukan
+              {t("noResults")}
             </Typography>
-            <Typography variant="body1" color="text.secondary">
-              Coba pilih kategori lain
+            <Typography variant="body1" color="text.secondary" sx={{ mb: 3 }}>
+              {t("noResultsHint")}
             </Typography>
+            <Button
+              variant="contained"
+              color="primary"
+              onClick={handleResetFilters}
+              sx={{ textTransform: "none", fontWeight: 600 }}
+            >
+              {t("resetFilters")}
+            </Button>
           </Paper>
         )}
       </Container>

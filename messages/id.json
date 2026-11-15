@@ -57,7 +57,8 @@
         "4d3n": "4 Hari / 3 Malam",
         "5d4n": "5 Hari / 4 Malam",
         "6d5n": "6 Hari / 5 Malam",
-        "honeymoon": "Honeymoon"
+        "honeymoon": "Honeymoon",
+        "4d4n": "4 Hari / 4 Malam"
       }
     }
   },
@@ -167,7 +168,11 @@
         "title": "Sailing Labuan Bajo – Lombok",
         "description": "4 hari 4 malam dari Labuan Bajo: sunrise Padar, komodo, manta, Pantai Pink, whale shark, dan Air Terjun Mata Jitu."
       }
-    }
+    },
+    "allDurations": "Semua Durasi",
+    "noResults": "Tidak ada destinasi ditemukan",
+    "noResultsHint": "Coba ubah kategori atau durasi pencarian Anda",
+    "resetFilters": "Hapus Filter"
   },
   "consultation": {
     "badge": "Gratis, tanpa komitmen",
