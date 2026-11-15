@@ -32,7 +32,8 @@
         "culture": "Budaya & Sejarah",
         "tour": "Tour Perjalanan",
         "business": "Perjalanan Dinas",
-        "honeymoon": "Honeymoon"
+        "honeymoon": "Honeymoon",
+        "sailing": "Sailing Trip"
       },
       "destinations": {
         "mandalika": "Mandalika",
@@ -45,7 +46,9 @@
         "benangKelambu": "Air Terjun Benang Kelambu",
         "senggigi": "Senggigi",
         "mandalikaCircuit": "Sirkuit Mandalika",
-        "sembalunRinjani": "Sembalun Rinjani"
+        "sembalunRinjani": "Sembalun Rinjani",
+        "sailingLombokLabuanBajo": "Sailing Lombok – Labuan Bajo",
+        "sailingLabuanBajoLombok": "Sailing Labuan Bajo – Lombok"
       },
       "durations": {
         "2d1n": "2 Hari / 1 Malam",
@@ -246,18 +249,30 @@
         "transportation": "Transportasi",
         "guide": "Pemandu Profesional",
         "entrance": "Tiket Masuk",
-        "insurance": "Asuransi Perjalanan"
+        "insurance": "Asuransi Perjalanan",
+        "wifi": "WiFi Gratis",
+        "snorkeling": "Peralatan Snorkeling",
+        "documentation": "Dokumentasi Perjalanan",
+        "shuttle": "Antar-Jemput Gratis (Bangsal, Mataram, Kuta)",
+        "pickup": "Penjemputan Bandara / Hotel"
       },
       "excluded": {
         "flights": "Tiket Pesawat Internasional",
         "personal": "Pengeluaran Pribadi",
         "tips": "Tips & Gratifikasi",
-        "optional": "Aktivitas Opsional"
+        "optional": "Aktivitas Opsional",
+        "entryFee": "Biaya Masuk Taman Nasional (±Rp500.000)",
+        "flightsHotel": "Tiket Pesawat & Hotel",
+        "insurance": "Asuransi Perjalanan"
       }
     },
     "instagramTitle": "Lihat Keseruannya di Instagram",
     "instagramText": "Foto dan video terbaru dari destinasi ini dan trip-trip kami lainnya, langsung dari lapangan.",
-    "instagramButton": "Lihat di Instagram"
+    "instagramButton": "Lihat di Instagram",
+    "cabins": "Pilihan Kabin",
+    "cabinNote": "Harga per orang. Kabin sharing dihuni bersama tamu lain, sedangkan kabin private dan family hanya untuk rombongan Anda.",
+    "extraBed": "Extra bed",
+    "pax": "orang"
   },
   "transportation": {
     "badge": "Sewa Kendaraan",

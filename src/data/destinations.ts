@@ -13,6 +13,7 @@ export const travelCategories: TravelCategory[] = [
     { id: "tour", labelKey: "tour" },
     { id: "business", labelKey: "business" },
     { id: "honeymoon", labelKey: "honeymoon" },
+    { id: "sailing", labelKey: "sailing" },
 ];
 
 // ==========================================
@@ -79,6 +80,16 @@ export const searchDestinations: SearchDestination[] = [
         id: "sembalun-rinjani",
         labelKey: "sembalunRinjani",
         categories: ["tour"],
+    },
+    {
+        id: "sailing-lombok-labuan-bajo",
+        labelKey: "sailingLombokLabuanBajo",
+        categories: ["sailing"],
+    },
+    {
+        id: "sailing-labuan-bajo-lombok",
+        labelKey: "sailingLabuanBajoLombok",
+        categories: ["sailing"],
     },
 ];
 
@@ -223,6 +234,26 @@ export const popularDestinations: PopularDestination[] = [
         location: "Lombok Timur, NTB",
         tags: ["mountain", "trekking", "nature"],
         categories: ["tour"],
+    },
+    {
+        key: "sailingLombokLabuanBajo",
+        slug: "sailing-lombok-labuan-bajo",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Phinisi%2C_Penjelajah_Pulau_di_Labuan_Bajo.jpg/1920px-Phinisi%2C_Penjelajah_Pulau_di_Labuan_Bajo.jpg",
+        priceFrom: 6500000,
+        currency: "IDR",
+        location: "Lombok \u2013 Labuan Bajo, NTT",
+        tags: ["sailing", "komodo", "whale-shark"],
+        categories: ["sailing"],
+    },
+    {
+        key: "sailingLabuanBajoLombok",
+        slug: "sailing-labuan-bajo-lombok",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Pulau_Padar_1.jpg/1920px-Pulau_Padar_1.jpg",
+        priceFrom: 6500000,
+        currency: "IDR",
+        location: "Labuan Bajo \u2013 Lombok",
+        tags: ["sailing", "komodo", "padar"],
+        categories: ["sailing"],
     },
 ];
 

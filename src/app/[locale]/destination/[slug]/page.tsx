@@ -9,12 +9,14 @@ import {
     IG_SEMBALUN_RINJANI_GALLERY,
     IG_SEMBALUN_RINJANI_HERO,
 } from "@/data/instagramPhotos";
+import { BOAT_WELENRENG } from "@/data/sailingPhotos";
 import { Link } from "@/i18n/navigation";
 import {
   ArrowBack as ArrowBackIcon,
   CalendarToday as CalendarIcon,
   Cancel as CancelIcon,
   CheckCircle as CheckIcon,
+  DirectionsBoat as BoatIcon,
   Instagram as InstagramIcon,
   Place as PlaceIcon,
   WhatsApp as WhatsAppIcon,
@@ -60,6 +62,13 @@ const destinationData: Record<
     itinerary: Array<{ day: number; title: string; description: string }>;
     included: string[];
     excluded: string[];
+    departure?: string;
+    cabins?: Array<{
+      name: string;
+      capacity: string;
+      price: number;
+      extraBed?: number;
+    }>;
   }
 > = {
   "mandalika": {
@@ -594,6 +603,174 @@ const destinationData: Record<
     included: ["accommodation", "meals", "transportation", "guide", "entrance"],
     excluded: ["flights", "personal", "tips", "optional"],
   },
+  "sailing-lombok-labuan-bajo": {
+    id: "12",
+    name: "Sailing Lombok \u2013 Labuan Bajo",
+    slug: "sailing-lombok-labuan-bajo",
+    category: "sailing",
+    destination: "sailing-lombok-labuan-bajo",
+    duration: "4d3n",
+    days: 4,
+    nights: 3,
+    price: 6500000,
+    departure: "Berangkat setiap Kamis",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Phinisi%2C_Penjelajah_Pulau_di_Labuan_Bajo.jpg/1920px-Phinisi%2C_Penjelajah_Pulau_di_Labuan_Bajo.jpg",
+    gallery: [
+      BOAT_WELENRENG,
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Hiu_paus_%28_whale_shark_%29.jpg/1280px-Hiu_paus_%28_whale_shark_%29.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Salt_Lake_Satonda.jpg/1280px-Salt_Lake_Satonda.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Komodo_dragon%2C_Varanus_komodoensis%2C_Komodo_Island%2C_Indonesia%2C_20250822_1319_2752.jpg/1280px-Komodo_dragon%2C_Varanus_komodoensis%2C_Komodo_Island%2C_Indonesia%2C_20250822_1319_2752.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Kelor_Island.jpg/1280px-Kelor_Island.jpg",
+    ],
+    description:
+      "4 hari 3 malam berlayar dengan KLM Welenreng dari Lombok ke Labuan Bajo: berenang bersama whale shark, mendaki Pulau Satonda, dan bertemu komodo di habitat aslinya.",
+    longDescription:
+      "Berlayarlah dari Lombok menuju Labuan Bajo di atas KLM Welenreng, kapal phinisi kayu dengan kabin ber-AC dan kamar mandi dalam. Selama 4 hari 3 malam, Anda akan berenang bersama hiu paus di Teluk Saleh, mendaki dan snorkeling di Danau Satonda, melihat manta di Takat Makassar, berjalan di antara komodo di Pulau Komodo, menikmati Pink Beach dan panorama Pulau Padar, hingga snorkeling bersama baby shark di Pulau Kelor sebelum tiba di Labuan Bajo. Semua makan, peralatan snorkeling, pemandu, dan dokumentasi sudah termasuk \u2014 Anda cukup menikmati lautnya.",
+    highlights: [
+      "Berenang bersama whale shark di Teluk Saleh",
+      "Hiking & snorkeling di Danau Satonda",
+      "Manta ray di Takat Makassar",
+      "Bertemu komodo di Pulau Komodo",
+      "Pink Beach, Pulau Padar & Pulau Kalong",
+      "Snorkeling bersama baby shark di Pulau Kelor",
+    ],
+    itinerary: [
+      {
+        day: 1,
+        title: "Senggigi \u2013 Kenawa",
+        description:
+          "Meeting point di Senggigi, menuju Pelabuhan Kayangan, lalu berlayar ke Pulau Kenawa untuk snorkeling dan menikmati sunset pertama di atas kapal.",
+      },
+      {
+        day: 2,
+        title: "Whale Shark & Satonda",
+        description:
+          "Berenang bersama whale shark di pagi hari, lalu ke Pulau Satonda untuk hiking dan snorkeling di danaunya yang unik.",
+      },
+      {
+        day: 3,
+        title: "Manta, Komodo & Padar",
+        description:
+          "Manta di Takat Makassar, bertemu komodo di Pulau Komodo, Pink Beach, panorama Pulau Padar, dan ribuan kelelawar di Pulau Kalong saat senja.",
+      },
+      {
+        day: 4,
+        title: "Kelor \u2013 Labuan Bajo",
+        description:
+          "Strawberry Rock, Manjarite, dan Pulau Kelor untuk snorkeling bersama baby shark, lalu tiba di Labuan Bajo sekitar pukul 13.00\u201314.00.",
+      },
+    ],
+    included: ["accommodation", "meals", "guide", "wifi", "snorkeling", "documentation", "shuttle"],
+    excluded: ["flightsHotel", "insurance", "personal", "tips", "entryFee"],
+    cabins: [
+      {
+        name: "Family Cabin with Balcony",
+        capacity: "1\u20134",
+        price: 10500000,
+        extraBed: 5500000,
+      },
+      {
+        name: "Private Cabin",
+        capacity: "1\u20133",
+        price: 9500000,
+        extraBed: 5000000,
+      },
+      {
+        name: "Sharing Cabin Main Deck",
+        capacity: "1\u20136",
+        price: 7500000,
+      },
+      {
+        name: "Sharing Cabin Lower Deck",
+        capacity: "1\u201312",
+        price: 6500000,
+      },
+    ],
+  },
+  "sailing-labuan-bajo-lombok": {
+    id: "13",
+    name: "Sailing Labuan Bajo \u2013 Lombok",
+    slug: "sailing-labuan-bajo-lombok",
+    category: "sailing",
+    destination: "sailing-labuan-bajo-lombok",
+    duration: "4d4n",
+    days: 4,
+    nights: 4,
+    price: 6500000,
+    departure: "Berangkat setiap Minggu",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Pulau_Padar_1.jpg/1920px-Pulau_Padar_1.jpg",
+    gallery: [
+      BOAT_WELENRENG,
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Varanus_komodoensis%2C_Komodo_Island%2C_Indonesia%2C_20250822_1332_2808.jpg/1280px-Varanus_komodoensis%2C_Komodo_Island%2C_Indonesia%2C_20250822_1332_2808.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Manta_ray.jpg/1280px-Manta_ray.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Pink_Beach_Shore.jpg/1280px-Pink_Beach_Shore.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Sumbawa_Adventour_-_Moyo_Island_Mata_Jitu_Waterfall.jpg/1280px-Sumbawa_Adventour_-_Moyo_Island_Mata_Jitu_Waterfall.jpg",
+    ],
+    description:
+      "4 hari 4 malam dari Labuan Bajo kembali ke Lombok: sunrise di Pulau Padar, komodo, manta, Pantai Pink, lalu whale shark dan Air Terjun Mata Jitu di Pulau Moyo.",
+    longDescription:
+      "Dari Labuan Bajo, KLM Welenreng membawa Anda menyusuri Taman Nasional Komodo: sunrise dari puncak Pulau Padar, komodo di habitat aslinya, Pantai Pink, dan manta ray di Manta Point. Perjalanan berlanjut ke pantai-pantai tenang Sumbawa, berenang bersama whale shark, dan bermain air di Air Terjun Mata Jitu yang bertingkat-tingkat di Pulau Moyo, sebelum check-out keesokan paginya di Lombok. Kabin ber-AC dengan kamar mandi dalam, semua makan, snorkeling, pemandu, dan dokumentasi sudah termasuk.",
+    highlights: [
+      "Sunrise dari puncak Pulau Padar",
+      "Komodo, Pink Beach & Manta Point",
+      "Pantai Savana & Coral Beach yang tenang",
+      "Berenang bersama whale shark",
+      "Air Terjun Mata Jitu di Pulau Moyo",
+      "4 malam nyaman di atas kapal phinisi",
+    ],
+    itinerary: [
+      {
+        day: 1,
+        title: "Berangkat dari Labuan Bajo",
+        description:
+          "Penjemputan dari bandara/hotel pukul 17.00, berangkat dari pelabuhan pukul 19.00, dan bermalam pertama di atas kapal.",
+      },
+      {
+        day: 2,
+        title: "Padar, Komodo & Manta",
+        description:
+          "Sunrise di Pulau Padar, bertemu komodo di Pulau Komodo, Pink Beach, dan snorkeling bersama manta di Manta Point.",
+      },
+      {
+        day: 3,
+        title: "Savana & Coral Beach",
+        description:
+          "Seharian bersantai di Savana Beach dan Coral Beach: snorkeling, berenang, dan menikmati pantai yang masih sepi.",
+      },
+      {
+        day: 4,
+        title: "Whale Shark & Mata Jitu",
+        description:
+          "Berenang bersama whale shark, lalu ke Pulau Moyo untuk Air Terjun Mata Jitu. Check-out keesokan paginya pukul 07.00\u201308.00.",
+      },
+    ],
+    included: ["accommodation", "meals", "guide", "wifi", "snorkeling", "documentation", "pickup"],
+    excluded: ["flightsHotel", "insurance", "personal", "tips", "entryFee"],
+    cabins: [
+      {
+        name: "Family Cabin with Balcony",
+        capacity: "1\u20134",
+        price: 10500000,
+        extraBed: 5500000,
+      },
+      {
+        name: "Private Cabin",
+        capacity: "1\u20133",
+        price: 9500000,
+        extraBed: 5000000,
+      },
+      {
+        name: "Sharing Cabin Main Deck",
+        capacity: "1\u20136",
+        price: 7500000,
+      },
+      {
+        name: "Sharing Cabin Lower Deck",
+        capacity: "1\u201312",
+        price: 6500000,
+      },
+    ],
+  }
 };
 
 export default function DestinationDetailPage() {
@@ -644,6 +821,7 @@ export default function DestinationDetailPage() {
       tour: tCategories("tour"),
       business: tCategories("business"),
       honeymoon: tCategories("honeymoon"),
+      sailing: tCategories("sailing"),
     };
     return map[value] || value;
   };
@@ -661,6 +839,8 @@ export default function DestinationDetailPage() {
       senggigi: tDestinations("senggigi"),
       "mandalika-circuit": tDestinations("mandalikaCircuit"),
       "sembalun-rinjani": tDestinations("sembalunRinjani"),
+      "sailing-lombok-labuan-bajo": tDestinations("sailingLombokLabuanBajo"),
+      "sailing-labuan-bajo-lombok": tDestinations("sailingLabuanBajoLombok"),
     };
     return map[value] || value;
   };
@@ -771,6 +951,16 @@ export default function DestinationDetailPage() {
                     variant="outlined"
                     sx={{ fontSize: "0.75rem" }}
                   />
+                  {destination.departure && (
+                    <Chip
+                      icon={<BoatIcon fontSize="small" />}
+                      label={destination.departure}
+                      size="small"
+                      variant="outlined"
+                      color="primary"
+                      sx={{ fontSize: "0.75rem", fontWeight: 600 }}
+                    />
+                  )}
                 </Box>
 
                 <Box
@@ -782,6 +972,11 @@ export default function DestinationDetailPage() {
                   }}
                 >
                   <Box>
+                    {destination.cabins && (
+                      <Typography variant="caption" color="text.secondary">
+                        {t("startingFrom")}
+                      </Typography>
+                    )}
                     <Typography
                       variant="h5"
                       color="primary.main"
@@ -869,6 +1064,74 @@ export default function DestinationDetailPage() {
                 ))}
               </Grid>
             </Paper>
+
+            {/* Cabin Options */}
+            {destination.cabins && (
+              <Paper elevation={2} sx={{ p: 4, mb: 4, borderRadius: 2 }}>
+                <Typography
+                  variant="h4"
+                  sx={{ fontWeight: 600, mb: 1, color: "primary.main" }}
+                >
+                  {t("cabins")}
+                </Typography>
+                <Typography variant="body2" color="text.secondary" sx={{ mb: 3 }}>
+                  {t("cabinNote")}
+                </Typography>
+                <Grid container spacing={2}>
+                  {destination.cabins.map((cabin, index) => (
+                    <Grid size={{ xs: 12, sm: 6 }} key={index}>
+                      <Box
+                        sx={{
+                          p: 2.5,
+                          borderRadius: 2,
+                          border: "1px solid",
+                          borderColor: "divider",
+                          height: "100%",
+                          display: "flex",
+                          flexDirection: "column",
+                          gap: 1,
+                        }}
+                      >
+                        <Box
+                          sx={{
+                            display: "flex",
+                            alignItems: "center",
+                            justifyContent: "space-between",
+                            gap: 1,
+                          }}
+                        >
+                          <Typography variant="subtitle1" fontWeight={700}>
+                            {cabin.name}
+                          </Typography>
+                          <Chip
+                            label={`${cabin.capacity} ${t("pax")}`}
+                            size="small"
+                            color="primary"
+                            variant="outlined"
+                            sx={{ fontWeight: 600, flexShrink: 0 }}
+                          />
+                        </Box>
+                        <Typography
+                          variant="h6"
+                          color="primary.main"
+                          fontWeight={700}
+                        >
+                          {formatPrice(cabin.price, "IDR")}
+                        </Typography>
+                        <Typography variant="caption" color="text.secondary">
+                          {t("perPerson")}
+                        </Typography>
+                        {cabin.extraBed && (
+                          <Typography variant="body2" color="text.secondary">
+                            {t("extraBed")}: {formatPrice(cabin.extraBed, "IDR")}
+                          </Typography>
+                        )}
+                      </Box>
+                    </Grid>
+                  ))}
+                </Grid>
+              </Paper>
+            )}
 
             {/* Itinerary */}
             <Paper elevation={2} sx={{ p: 4, mb: 4, borderRadius: 2 }}>

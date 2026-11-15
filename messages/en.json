@@ -32,7 +32,8 @@
         "culture": "Culture & History",
         "tour": "Tour Journey",
         "business": "Business Trip",
-        "honeymoon": "Honeymoon"
+        "honeymoon": "Honeymoon",
+        "sailing": "Sailing Trip"
       },
       "destinations": {
         "mandalika": "Mandalika",
@@ -45,7 +46,9 @@
         "benangKelambu": "Benang Kelambu Waterfall",
         "senggigi": "Senggigi",
         "mandalikaCircuit": "Mandalika Circuit",
-        "sembalunRinjani": "Sembalun Rinjani"
+        "sembalunRinjani": "Sembalun Rinjani",
+        "sailingLombokLabuanBajo": "Sailing Lombok – Labuan Bajo",
+        "sailingLabuanBajoLombok": "Sailing Labuan Bajo – Lombok"
       },
       "durations": {
         "2d1n": "2 Days / 1 Night",
@@ -246,18 +249,30 @@
         "transportation": "Transportation",
         "guide": "Professional Guide",
         "entrance": "Entrance Fees",
-        "insurance": "Travel Insurance"
+        "insurance": "Travel Insurance",
+        "wifi": "Free WiFi",
+        "snorkeling": "Snorkeling Equipment",
+        "documentation": "Trip Documentation",
+        "shuttle": "Free Shuttle (Bangsal, Mataram, Kuta)",
+        "pickup": "Airport / Hotel Pickup"
       },
       "excluded": {
         "flights": "International Flights",
         "personal": "Personal Expenses",
         "tips": "Tips & Gratuities",
-        "optional": "Optional Activities"
+        "optional": "Optional Activities",
+        "entryFee": "National Park Entry Fee (±IDR 500,000)",
+        "flightsHotel": "Flights & Hotel",
+        "insurance": "Travel Insurance"
       }
     },
     "instagramTitle": "See It on Instagram",
     "instagramText": "The latest photos and videos from this destination and our other trips, straight from the field.",
-    "instagramButton": "View on Instagram"
+    "instagramButton": "View on Instagram",
+    "cabins": "Cabin Options",
+    "cabinNote": "Price per person. Sharing cabins are shared with other guests, while private and family cabins are for your group only.",
+    "extraBed": "Extra bed",
+    "pax": "pax"
   },
   "transportation": {
     "badge": "Vehicle Rental",
