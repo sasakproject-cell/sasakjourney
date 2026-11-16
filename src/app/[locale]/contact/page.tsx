@@ -46,7 +46,7 @@ export default function ContactPage() {
 
         // Format message for WhatsApp
         const phoneNumber = "62895634060842";
-        const waMessage = `Halo Sasak Journey, saya ingin menghubungi anda.
+        const waMessage = `Halo Sasak Journey, saya mau bertanya soal rencana trip Lombok saya.
     
 📝 *Dari:* ${formData.name}
 📧 *Email:* ${formData.email}
@@ -56,7 +56,7 @@ export default function ContactPage() {
 💬 *Pesan:*
 ${formData.message}
 
-Mohon responnya. Terima kasih.`;
+Mohon dibalas ya. Terima kasih.`;
 
         const encodedMessage = encodeURIComponent(waMessage);
         window.open(

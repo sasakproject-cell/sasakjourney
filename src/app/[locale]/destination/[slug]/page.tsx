@@ -997,7 +997,7 @@ export default function DestinationDetailPage() {
                     size="large"
                     startIcon={<WhatsAppIcon />}
                     href={`https://wa.me/62895634060842?text=${encodeURIComponent(
-                      `Halo, saya tertarik dengan paket wisata ${destination.name}. Bolehkah saya minta informasi lebih lanjut mengenai ketersediaan dan detail harganya?`
+                      `Halo, saya tertarik dengan paket wisata ${destination.name}. Paketnya kelihatan pas buat rencana liburan saya. Boleh minta info ketersediaan dan detail harganya? Kalau masih tersedia, saya mau langsung booking. Terima kasih.`
                     )}`}
                     target="_blank"
                     rel="noopener noreferrer"

@@ -38,15 +38,14 @@ export default function TransportationPage() {
 
     const handleWhatsAppClick = (vehicleName: string, price: string) => {
         const phoneNumber = "62895634060842";
-        const message = `Halo Sasak Journey, saya ingin menyewa kendaraan.
-Berikut detail pesanan saya:
+        const message = `Halo Sasak Journey, saya mau sewa kendaraan untuk trip Lombok saya. Berikut detailnya:
 
 🚗 Kendaraan: ${vehicleName}
 💰 Harga: ${price} / 12 Jam
 📅 Tanggal Sewa: (Mohon diisi)
 📍 Lokasi Jemput: (Mohon diisi)
 
-Mohon ketersediaannya. Terima kasih.`;
+Mohon info ketersediaannya ya. Kalau cocok, saya mau langsung booking. Terima kasih.`;
 
         const encodedMessage = encodeURIComponent(message);
         window.open(
@@ -369,7 +368,7 @@ Mohon ketersediaannya. Terima kasih.`;
                         startIcon={<WhatsAppIcon />}
                         onClick={() => {
                             const phoneNumber = "62895634060842";
-                            const message = "Halo Sasak Journey, saya ingin bertanya tentang layanan transportasi.";
+                            const message = "Halo Sasak Journey, saya mau tanya soal layanan transportasi untuk trip Lombok. Kendaraan apa yang paling nyaman untuk rencana perjalanan saya?";
                             window.open(`https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`, "_blank");
                         }}
                         sx={{

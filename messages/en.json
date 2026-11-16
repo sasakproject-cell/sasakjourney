@@ -203,12 +203,12 @@
       "send": "Send via WhatsApp",
       "note": "This form will open WhatsApp with a pre-filled message. No data is stored on the website."
     },
-    "waGreeting": "Hello Sasak Journey, I'd like a consultation about a Lombok trip.",
-    "waFooter": "Please share the details and your recommendations. Thank you.",
+    "waGreeting": "Hello Sasak Journey, I'd like a consultation about a Lombok trip. I want this holiday to be memorable, so I'd love a recommendation from your local team. Here are my plan details:",
+    "waFooter": "Please share the details and your recommendations. If it fits, I'd like to go ahead and book. Thank you.",
     "waMessageLabel": "Message",
     "waPeople": "people",
     "floatLabel": "Chat on WhatsApp",
-    "floatGreeting": "Hello Sasak Journey, I'd like to ask about a Lombok trip."
+    "floatGreeting": "Hello Sasak Journey, I've been wanting to visit Lombok for a while. Could you recommend the best package for me? If the dates work, I'd like to book right away. Thank you."
   },
   "searchResults": {
     "title": "Search Results",
