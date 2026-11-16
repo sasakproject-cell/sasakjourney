@@ -173,12 +173,12 @@ export default function Footer() {
                             <Box sx={{ display: "flex", gap: 2 }}>
                                 <Phone sx={{ color: "primary.main" }} />
                                 <MuiLink
-                                    href="tel:+6287773931343"
+                                    href="tel:+62895634060842"
                                     color="inherit"
                                     underline="hover"
                                     sx={{ color: "grey.400", fontSize: "0.875rem" }}
                                 >
-                                    +62 877-7393-1343
+                                    +62 895-6340-60842
                                 </MuiLink>
                             </Box>
                             <Box sx={{ display: "flex", gap: 2 }}>

@@ -4,7 +4,7 @@ import { WhatsApp as WhatsAppIcon } from "@mui/icons-material";
 import { Box } from "@mui/material";
 import { useTranslations } from "next-intl";
 
-const WHATSAPP_NUMBER = "6287773931343";
+const WHATSAPP_NUMBER = "62895634060842";
 
 export default function WhatsAppFloat() {
   const t = useTranslations("consultation");

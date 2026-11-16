@@ -45,7 +45,7 @@ export default function ContactPage() {
         e.preventDefault();
 
         // Format message for WhatsApp
-        const phoneNumber = "6287773931343";
+        const phoneNumber = "62895634060842";
         const waMessage = `Halo Sasak Journey, saya ingin menghubungi anda.
     
 📝 *Dari:* ${formData.name}
@@ -76,7 +76,7 @@ Mohon responnya. Terima kasih.`;
         {
             icon: <PhoneIcon sx={{ fontSize: 24 }} />,
             title: t("info.phone"),
-            content: "+62 877-7393-1343",
+            content: "+62 895-6340-60842",
             color: "#10B981", // Emerald
             bgColor: "#ECFDF5",
         },

@@ -19,7 +19,7 @@ import {
 import { useLocale, useTranslations } from "next-intl";
 import { useState } from "react";
 
-const WHATSAPP_NUMBER = "6287773931343";
+const WHATSAPP_NUMBER = "62895634060842";
 
 function initials(name: string) {
     return name

@@ -37,7 +37,7 @@ export default function TransportationPage() {
     const theme = useTheme();
 
     const handleWhatsAppClick = (vehicleName: string, price: string) => {
-        const phoneNumber = "6287773931343";
+        const phoneNumber = "62895634060842";
         const message = `Halo Sasak Journey, saya ingin menyewa kendaraan.
 Berikut detail pesanan saya:
 
@@ -368,7 +368,7 @@ Mohon ketersediaannya. Terima kasih.`;
                         size="large"
                         startIcon={<WhatsAppIcon />}
                         onClick={() => {
-                            const phoneNumber = "6287773931343";
+                            const phoneNumber = "62895634060842";
                             const message = "Halo Sasak Journey, saya ingin bertanya tentang layanan transportasi.";
                             window.open(`https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`, "_blank");
                         }}

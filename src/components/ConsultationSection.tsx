@@ -21,7 +21,7 @@ import {
 import { useLocale, useTranslations } from "next-intl";
 import { useState } from "react";
 
-const WHATSAPP_NUMBER = "6287773931343";
+const WHATSAPP_NUMBER = "62895634060842";
 
 export default function ConsultationSection() {
   const t = useTranslations("consultation");
@@ -203,7 +203,7 @@ export default function ConsultationSection() {
                         "&:hover": { textDecoration: "underline" },
                       }}
                     >
-                      +62 877-7393-1343
+                      +62 895-6340-60842
                     </Typography>
                   </Box>
                 </Box>

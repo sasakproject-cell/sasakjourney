@@ -6,7 +6,7 @@ Fitur utama:
 
 - Pencarian paket wisata (kategori, destinasi, durasi)
 - Halaman destinasi, detail destinasi, transportasi, dan kontak
-- Menu **Konsultasi** di beranda: form konsultasi yang mengirim pesan otomatis ke WhatsApp +62 877-7393-1343
+- Menu **Konsultasi** di beranda: form konsultasi yang mengirim pesan otomatis ke WhatsApp +62 895-6340-60842
 - Tombol WhatsApp mengambang di semua halaman
 
 ## Menjalankan lokal
