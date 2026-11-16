@@ -1,4 +1,26 @@
 {
+  "seo": {
+    "home": {
+      "title": "Travel Lombok, Paket Wisata & Liburan Lombok Terpercaya | Sasak Journey",
+      "description": "Sasak Journey adalah travel lokal Lombok untuk liburan Lombok yang berkesan: paket wisata Lombok, tour Gili Trawangan, Gili Nanggu & Rinjani, sailing Labuan Bajo, plus transportasi dan sewa mobil Lombok. Konsultasi gratis via WhatsApp — 1 Destinasi = 1 Pohon."
+    },
+    "destinations": {
+      "title": "Paket Wisata Lombok — Destinasi & Tour Liburan Lombok Terbaik | Sasak Journey",
+      "description": "Daftar paket wisata Lombok dari Sasak Journey: Mandalika, Gili Trawangan, Gili Nanggu, Gili Gede, Pantai Pink, Sembalun Rinjani, Sailing Labuan Bajo, dan lainnya. Harga transparan mulai Rp 1,2 juta — konsultasi gratis dulu, tanpa komitmen."
+    },
+    "transportation": {
+      "title": "Transportasi Lombok — Sewa Mobil, Rental Mobil & Antar Jemput Bandara | Sasak Journey",
+      "description": "Layanan transportasi Lombok dari Sasak Journey: sewa mobil Lombok dengan driver lokal, rental mobil untuk liburan dan perjalanan dinas, antar jemput Bandara Internasional Lombok, dan paket kendaraan harian. Harga jelas, kendaraan bersih dan terawat."
+    },
+    "contact": {
+      "title": "Hubungi Sasak Journey — Travel Lombok Terpercaya di Mataram | Konsultasi Gratis",
+      "description": "Hubungi Sasak Journey, agen travel Lombok di Kota Mataram, untuk konsultasi gratis paket wisata, liburan, dan transportasi Lombok via WhatsApp +62 895-6340-60842. Dibalas setiap hari pukul 08.00–22.00 WITA."
+    },
+    "destinationDetail": {
+      "titleSuffix": "Paket Wisata Lombok",
+      "fromPrefix": "Mulai"
+    }
+  },
   "navbar": {
     "logo": "Sasak Journey",
     "home": "Beranda",

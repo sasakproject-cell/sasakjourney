@@ -1,4 +1,26 @@
 {
+  "seo": {
+    "home": {
+      "title": "Lombok Travel Agency — Tour Packages & Holiday Trips in Lombok | Sasak Journey",
+      "description": "Sasak Journey is a local Lombok travel agency for unforgettable Lombok holidays: Lombok tour packages, trips to Gili Trawangan, Gili Nanggu & Mount Rinjani, sailing to Labuan Bajo, plus Lombok transport and car rental with a driver. Free consultation on WhatsApp — 1 Destination = 1 Tree."
+    },
+    "destinations": {
+      "title": "Lombok Tour Packages — Best Holiday Destinations & Trips | Sasak Journey",
+      "description": "Browse Lombok tour packages from Sasak Journey: Mandalika, Gili Trawangan, Gili Nanggu, Gili Gede, Pink Beach, Sembalun Rinjani, sailing to Labuan Bajo, and more. Transparent prices from IDR 1.2 million — start with a free, no-obligation consultation."
+    },
+    "transportation": {
+      "title": "Lombok Transport — Car Rental with Driver & Airport Transfers | Sasak Journey",
+      "description": "Lombok transport services from Sasak Journey: car rental in Lombok with a local driver, holiday and business car hire, Lombok International Airport pick-up and drop-off, and daily vehicle packages. Clear prices, clean and well-maintained cars."
+    },
+    "contact": {
+      "title": "Contact Sasak Journey — Lombok Travel Agency in Mataram | Free Consultation",
+      "description": "Contact Sasak Journey, a Lombok travel agency based in Mataram City, for a free consultation on Lombok tour packages, holidays, and transport via WhatsApp +62 895-6340-60842. Replies daily from 08.00 to 22.00 WITA."
+    },
+    "destinationDetail": {
+      "titleSuffix": "Lombok Tour Package",
+      "fromPrefix": "From"
+    }
+  },
   "navbar": {
     "logo": "Sasak Journey",
     "home": "Home",
