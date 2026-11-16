@@ -167,7 +167,7 @@ export default function Footer() {
                             <Box sx={{ display: "flex", gap: 2 }}>
                                 <LocationOn sx={{ color: "primary.main" }} />
                                 <Typography variant="body2" sx={{ color: "grey.400" }}>
-                                    Jl. Pariwisata Pantai Kuta, Mandalika, Lombok Tengah, NTB 83573
+                                    Jl. Aneka, Dasan Agung, Kec. Selaparang, Kota Mataram, Nusa Tenggara Barat 83125
                                 </Typography>
                             </Box>
                             <Box sx={{ display: "flex", gap: 2 }}>

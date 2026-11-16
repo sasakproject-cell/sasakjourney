@@ -222,7 +222,7 @@ Mohon dibalas ya. Terima kasih.`;
                                 }}
                             >
                                 <iframe
-                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15764.717158488316!2d116.2798835!3d-8.8955212!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dcdb12643a6d71b%3A0x673c68379477e682!2sKuta%20Beach%20Mandalika!5e0!3m2!1sen!2sid!4v1703666666666!5m2!1sen!2sid"
+                                    src="https://maps.google.com/maps?q=Jl.%20Aneka%2C%20Dasan%20Agung%2C%20Kec.%20Selaparang%2C%20Kota%20Mataram%2C%20Nusa%20Tenggara%20Barat%2083125&t=&z=15&ie=UTF8&iwloc=&output=embed"
                                     width="100%"
                                     height="100%"
                                     style={{ border: 0 }}
